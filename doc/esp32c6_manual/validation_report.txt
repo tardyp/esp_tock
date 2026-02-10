@@ -1,0 +1,28 @@
+Validation Report
+Original: esp32-c6_technical_reference_manual_en.md
+Output: esp32c6_manual
+
+ INFO:
+   Original chapters: 39
+   Extracted chapters: 39
+   All chapters accounted for
+   Original content: 73,079,374 characters
+   Output content: 2,278,047 characters
+   Image references found: 1447
+   Image files in images/: 1447
+   Internal links found: 227
+
+ WARNINGS:
+   Files without frontmatter: 1
+     - 00_Header.md
+   Potentially broken internal links: 3
+     - 20_Chapter_20.md -> n = 0 , 1 , · · · , 7
+     - 20_Chapter_20.md -> n = 0 , 1 , · · · , 7
+     - 20_Chapter_20.md -> n = 0 , 1 , · · · , 7
+
+ ERRORS:
+   Significant content loss detected (96.9% missing)
+
+Validation FAILED
+  Errors: 1
+  Warnings: 6

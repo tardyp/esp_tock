@@ -1,0 +1,281 @@
+{
+  "document": "ESP32-C6 Technical Reference Manual",
+  "version": "v1.1",
+  "processed_date": "2026-02-10T16:19:57.643723",
+  "total_chapters": 39,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Chapter 1",
+      "file": "01_Chapter_1.md",
+      "lines": 1495,
+      "characters": 1268720
+    },
+    {
+      "chapter": 2,
+      "title": "Chapter 2",
+      "file": "02_Chapter_2.md",
+      "lines": 483,
+      "characters": 739652
+    },
+    {
+      "chapter": 3,
+      "title": "Chapter 3",
+      "file": "03_Chapter_3.md",
+      "lines": 724,
+      "characters": 997793
+    },
+    {
+      "chapter": 4,
+      "title": "Chapter 4",
+      "file": "04_Chapter_4.md",
+      "lines": 957,
+      "characters": 1890357
+    },
+    {
+      "chapter": 5,
+      "title": "Chapter 5",
+      "file": "05_Chapter_5.md",
+      "lines": 285,
+      "characters": 325337
+    },
+    {
+      "chapter": 6,
+      "title": "Chapter 6",
+      "file": "06_Chapter_6.md",
+      "lines": 1923,
+      "characters": 4012639
+    },
+    {
+      "chapter": 7,
+      "title": "Chapter 7",
+      "file": "07_Chapter_7.md",
+      "lines": 2471,
+      "characters": 2255722
+    },
+    {
+      "chapter": 8,
+      "title": "Chapter 8",
+      "file": "08_Chapter_8.md",
+      "lines": 2463,
+      "characters": 3424451
+    },
+    {
+      "chapter": 9,
+      "title": "Chapter 9",
+      "file": "09_Chapter_9.md",
+      "lines": 161,
+      "characters": 204062
+    },
+    {
+      "chapter": 10,
+      "title": "Chapter 10",
+      "file": "10_Chapter_10.md",
+      "lines": 1596,
+      "characters": 573945
+    },
+    {
+      "chapter": 11,
+      "title": "Chapter 11",
+      "file": "11_Chapter_11.md",
+      "lines": 576,
+      "characters": 1389241
+    },
+    {
+      "chapter": 12,
+      "title": "Chapter 12",
+      "file": "12_Chapter_12.md",
+      "lines": 2301,
+      "characters": 4412377
+    },
+    {
+      "chapter": 13,
+      "title": "Chapter 13",
+      "file": "13_Chapter_13.md",
+      "lines": 545,
+      "characters": 1708548
+    },
+    {
+      "chapter": 14,
+      "title": "Chapter 14",
+      "file": "14_Chapter_14.md",
+      "lines": 745,
+      "characters": 754090
+    },
+    {
+      "chapter": 15,
+      "title": "Chapter 15",
+      "file": "15_Chapter_15.md",
+      "lines": 479,
+      "characters": 643901
+    },
+    {
+      "chapter": 16,
+      "title": "Chapter 16",
+      "file": "16_Chapter_16.md",
+      "lines": 731,
+      "characters": 3527080
+    },
+    {
+      "chapter": 17,
+      "title": "Chapter 17",
+      "file": "17_Chapter_17.md",
+      "lines": 348,
+      "characters": 496387
+    },
+    {
+      "chapter": 18,
+      "title": "Chapter 18",
+      "file": "18_Chapter_18.md",
+      "lines": 644,
+      "characters": 1916607
+    },
+    {
+      "chapter": 19,
+      "title": "Chapter 19",
+      "file": "19_Chapter_19.md",
+      "lines": 676,
+      "characters": 259738
+    },
+    {
+      "chapter": 20,
+      "title": "Chapter 20",
+      "file": "20_Chapter_20.md",
+      "lines": 334,
+      "characters": 397340
+    },
+    {
+      "chapter": 21,
+      "title": "Chapter 21",
+      "file": "21_Chapter_21.md",
+      "lines": 354,
+      "characters": 853337
+    },
+    {
+      "chapter": 22,
+      "title": "Chapter 22",
+      "file": "22_Chapter_22.md",
+      "lines": 312,
+      "characters": 423749
+    },
+    {
+      "chapter": 23,
+      "title": "Chapter 23",
+      "file": "23_Chapter_23.md",
+      "lines": 263,
+      "characters": 646627
+    },
+    {
+      "chapter": 24,
+      "title": "Chapter 24",
+      "file": "24_Chapter_24.md",
+      "lines": 251,
+      "characters": 334599
+    },
+    {
+      "chapter": 25,
+      "title": "Chapter 25",
+      "file": "25_Chapter_25.md",
+      "lines": 358,
+      "characters": 317099
+    },
+    {
+      "chapter": 26,
+      "title": "Chapter 26",
+      "file": "26_Chapter_26.md",
+      "lines": 64,
+      "characters": 91482
+    },
+    {
+      "chapter": 27,
+      "title": "Chapter 27",
+      "file": "27_Chapter_27.md",
+      "lines": 2455,
+      "characters": 6005658
+    },
+    {
+      "chapter": 28,
+      "title": "Chapter 28",
+      "file": "28_Chapter_28.md",
+      "lines": 2498,
+      "characters": 3873746
+    },
+    {
+      "chapter": 29,
+      "title": "Chapter 29",
+      "file": "29_Chapter_29.md",
+      "lines": 2048,
+      "characters": 4089583
+    },
+    {
+      "chapter": 30,
+      "title": "Chapter 30",
+      "file": "30_Chapter_30.md",
+      "lines": 1320,
+      "characters": 1838508
+    },
+    {
+      "chapter": 31,
+      "title": "Chapter 31",
+      "file": "31_Chapter_31.md",
+      "lines": 414,
+      "characters": 1142594
+    },
+    {
+      "chapter": 32,
+      "title": "Chapter 32",
+      "file": "32_Chapter_32.md",
+      "lines": 942,
+      "characters": 2567508
+    },
+    {
+      "chapter": 33,
+      "title": "Chapter 33",
+      "file": "33_Chapter_33.md",
+      "lines": 1233,
+      "characters": 2048056
+    },
+    {
+      "chapter": 34,
+      "title": "Chapter 34",
+      "file": "34_Chapter_34.md",
+      "lines": 1451,
+      "characters": 4703394
+    },
+    {
+      "chapter": 35,
+      "title": "Chapter 35",
+      "file": "35_Chapter_35.md",
+      "lines": 779,
+      "characters": 2261374
+    },
+    {
+      "chapter": 36,
+      "title": "Chapter 36",
+      "file": "36_Chapter_36.md",
+      "lines": 3481,
+      "characters": 6416898
+    },
+    {
+      "chapter": 37,
+      "title": "Chapter 37",
+      "file": "37_Chapter_37.md",
+      "lines": 753,
+      "characters": 1325147
+    },
+    {
+      "chapter": 38,
+      "title": "Chapter 38",
+      "file": "38_Chapter_38.md",
+      "lines": 687,
+      "characters": 1149289
+    },
+    {
+      "chapter": 39,
+      "title": "Chapter 39",
+      "file": "39_Chapter_39.md",
+      "lines": 1064,
+      "characters": 1550015
+    }
+  ]
+}

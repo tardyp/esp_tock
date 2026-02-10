@@ -1,0 +1,6054 @@
+{
+  "processed_date": "2026-02-10T16:17:06.555591",
+  "source_directory": "esp32c3_manual",
+  "total_images": 1001,
+  "by_type": {
+    "png": 1001
+  },
+  "by_chapter": {
+    "00_Header.md": 5,
+    "01_Chapter_1.md": 28,
+    "02_Chapter_2.md": 46,
+    "03_Chapter_3.md": 4,
+    "04_Chapter_4.md": 100,
+    "05_Chapter_5.md": 35,
+    "06_Chapter_6.md": 2,
+    "08_Chapter_8.md": 12,
+    "09_Chapter_9.md": 66,
+    "10_Chapter_10.md": 31,
+    "11_Chapter_11.md": 31,
+    "12_Chapter_12.md": 3,
+    "13_Chapter_13.md": 1,
+    "14_Chapter_14.md": 89,
+    "15_Chapter_15.md": 14,
+    "16_Chapter_16.md": 19,
+    "17_Chapter_17.md": 29,
+    "18_Chapter_18.md": 12,
+    "19_Chapter_19.md": 12,
+    "20_Chapter_20.md": 7,
+    "21_Chapter_21.md": 4,
+    "22_Chapter_22.md": 8,
+    "23_Chapter_23.md": 10,
+    "24_Chapter_24.md": 3,
+    "25_Chapter_25.md": 1,
+    "26_Chapter_26.md": 103,
+    "27_Chapter_27.md": 89,
+    "28_Chapter_28.md": 61,
+    "29_Chapter_29.md": 33,
+    "30_Chapter_30.md": 27,
+    "31_Chapter_31.md": 35,
+    "32_Chapter_32.md": 20,
+    "33_Chapter_33.md": 23,
+    "34_Chapter_34.md": 38
+  },
+  "files_processed": 35,
+  "files_with_images": 34,
+  "images": [
+    {
+      "source_file": "00_Header.md",
+      "image_file": "00_Header_img001_9a5d5692.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "00_Header.md",
+      "image_file": "00_Header_img002_e673c51b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "00_Header.md",
+      "image_file": "00_Header_img003_b362ff4d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "00_Header.md",
+      "image_file": "00_Header_img004_e279f386.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "00_Header.md",
+      "image_file": "00_Header_img005_f43d4c8f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img001_10db579e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img002_5e1d26bc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img003_8bf5317e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img004_f03d5a43.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img005_55272f57.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img006_25c630fe.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img007_bf711025.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img008_3c13a820.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img009_894b2ab1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img010_c882269b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img011_d5206101.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img012_1ea6b37c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img013_106f3c54.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img014_360202fc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img015_66664481.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img016_e738f914.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img017_bf3df84a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img018_540f44d6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img019_ad7e2fe7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img020_b99801e5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img021_9cb7f3f4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img022_06c02265.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img023_25e55baf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img024_88969c08.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img025_36e24442.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img026_a8fd8dbd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img027_e17b2172.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "01_Chapter_1.md",
+      "image_file": "01_Chapter_1_img028_4290e1b6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img001_36b8b1bb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img002_629c8a3c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img003_580ef547.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img004_6d0cb069.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img005_4068a54f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img006_f2e3492b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img007_40444f47.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img008_ec52458d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img009_1bd70c6e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img010_ed84a40e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img011_adbf5507.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img012_9e04511e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img013_ed0c6660.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img014_897e5665.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img015_0d38fcc6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img016_828fade0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img017_376b17d4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img018_27724224.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img019_8af389b0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img020_eb177f9e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img021_851e4677.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img022_4e4e0b66.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img023_c64f9faf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img024_6587b12a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img025_9e20d54d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img026_5e74fc18.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img027_5fb57833.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img028_dbbdc005.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img029_2e4a78c1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img030_3446fc84.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img031_120e14fa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img032_0a62f379.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img033_b2654ada.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img034_0ccd9af7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img035_c4dea1e0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img036_10e2cdbc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img037_d1ac9aa7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img038_a8bd8b42.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img039_6c00c32b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img040_339cf65a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img041_1f94cfaa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img042_1b48f801.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img043_8b17e11a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img044_10a02e1c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img045_5f1763d5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "02_Chapter_2.md",
+      "image_file": "02_Chapter_2_img046_747524f6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "03_Chapter_3.md",
+      "image_file": "03_Chapter_3_img001_9b124e36.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "03_Chapter_3.md",
+      "image_file": "03_Chapter_3_img002_cbb7112f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "03_Chapter_3.md",
+      "image_file": "03_Chapter_3_img003_3ea979d5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "03_Chapter_3.md",
+      "image_file": "03_Chapter_3_img004_ff290bfd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img001_5d8c2094.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img002_4d4f6bfd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img003_23ade84d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img004_86a87257.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img005_7fff7977.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img006_8357084d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img007_3a7b0688.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img008_1ea5b75c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img009_90f7fa3d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img010_165a2969.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img011_3e7bf886.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img012_33cb9e11.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img013_584e61fd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img014_8ee39ec3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img015_75657da0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img016_e3e1d9f9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img017_00ab51b3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img018_51a41349.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img019_44bc8afb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img020_3b24ca3e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img021_5e24311b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img022_2d31dce1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img023_2319e654.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img024_dd7adcd3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img025_52d11408.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img026_2a2e66ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img027_b3b908e0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img028_35ecc4e2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img029_c87238e8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img030_2f59ad06.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img031_b6533bb2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img032_3bd82545.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img033_8cb0369e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img034_4445ad43.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img035_ae8720b8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img036_48dac7a3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img037_239392b9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img038_956d7b74.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img039_5587c399.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img040_774556c6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img041_0f631b07.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img042_d8f5cc49.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img043_097ce7c7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img044_92807da3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img045_e26d756b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img046_0558c689.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img047_e27b465c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img048_2f98d7e2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img049_09a3b701.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img050_feb391bc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img051_8888da74.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img052_5798c2b9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img053_1d5bf615.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img054_6bad427f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img055_9e0d5047.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img056_5753e2d2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img057_b04b4a7b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img058_13597f85.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img059_a2e736c1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img060_079ebf5a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img061_5611f09e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img062_171b770e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img063_0c6db283.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img064_fb42d2c9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img065_92c8ea43.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img066_764bed3f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img067_d9309a87.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img068_26abe26a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img069_932153ec.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img070_da37dec8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img071_7c0bd227.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img072_a0e38a55.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img073_675a5680.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img074_ea3f82ce.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img075_c582377c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img076_0d5d0768.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img077_bf5b6a3b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img078_1b447332.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img079_f088a59c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img080_540c6a19.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img081_2dcdea6e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img082_d0a5d4a1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img083_925991e2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img084_56a83480.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img085_7b4cb7a3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img086_6b89fa9d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img087_d95b8d7d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img088_3bb98d31.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img089_42001b60.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img090_57a6d521.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img091_ab9c221e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img092_fa9a3873.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img093_51b0d946.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img094_a965a333.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img095_8be11183.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img096_71909d70.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img097_86f29057.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img098_af1811c3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img099_1059bd4a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "04_Chapter_4.md",
+      "image_file": "04_Chapter_4_img100_6f5aac7f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img001_3116b1d0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img002_46e2c676.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img003_7eb1d02e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img004_ef006899.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img005_ee5eb1b4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img006_ab7340c6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img007_0ae70e46.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img008_3336adc5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img009_ebe77b73.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img010_31b06093.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img011_2793ec41.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img012_bd47f4ce.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img013_a7488de2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img014_cc0e10ea.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img015_30748d23.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img016_1984bce3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img017_b10ad082.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img018_7f8fa1a2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img019_84d8537f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img020_81f44248.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img021_683fbc86.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img022_f53d36f7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img023_2fbcea82.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img024_7685e977.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img025_6d999ab6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img026_50546e9d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img027_ffaac764.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img028_9ae2227f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img029_70e4e748.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img030_01b6aa4c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img031_6947a083.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img032_08bb6cf6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img033_335906ab.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img034_4e4086a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "05_Chapter_5.md",
+      "image_file": "05_Chapter_5_img035_cb4220b4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "06_Chapter_6.md",
+      "image_file": "06_Chapter_6_img001_baf1127b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "06_Chapter_6.md",
+      "image_file": "06_Chapter_6_img002_6d1db4a8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img001_04d8ef17.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img002_45afe642.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img003_35d67a4c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img004_7550241d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img005_8db78485.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img006_826f8ef7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img007_e5767346.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img008_d066145f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img009_61ffe045.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img010_c9bb4ffe.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img011_93354299.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "08_Chapter_8.md",
+      "image_file": "08_Chapter_8_img012_4a233945.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img001_ac80b464.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img002_779b80cb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img003_da53b81e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img004_191be3a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img005_032e3caa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img006_940b1695.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img007_2867b108.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img008_42a552bb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img009_412be7a5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img010_b87c4048.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img011_db951c24.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img012_510c09fa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img013_8fef4a48.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img014_60457850.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img015_b3fa6bcd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img016_61081d04.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img017_555c2a61.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img018_1ce402b7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img019_cc8b7600.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img020_897cb1fe.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img021_6d8de260.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img022_e22f5232.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img023_73a80b8a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img024_8f518c5b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img025_5917c83d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img026_5b9d4731.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img027_dc8a4238.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img028_2b10ea06.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img029_6eac61a0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img030_4dd04959.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img031_032b4d59.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img032_6859e3e0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img033_47605d6b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img034_70397e5a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img035_6789e5fd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img036_724fe716.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img037_7bc5574e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img038_e94f062f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img039_03d2192d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img040_caf5b9d3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img041_6e8b5b5f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img042_4a6ecb3a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img043_921f55ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img044_fd90aec4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img045_ec8b53ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img046_f67a60e1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img047_2686142c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img048_16403097.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img049_38889f28.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img050_848cd8ff.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img051_168a6932.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img052_2cbf7113.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img053_26eb1c06.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img054_5f2c1697.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img055_095ab0a6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img056_bd7ff931.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img057_ddf8c99a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img058_be089a51.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img059_a4e51d40.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img060_277b7e5d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img061_4fa5a2a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img062_36540131.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img063_d61314be.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img064_cac1cb64.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img065_85909111.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "09_Chapter_9.md",
+      "image_file": "09_Chapter_9_img066_18cc466c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img001_e86f0ad6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img002_a4bf881b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img003_5a1ce8a8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img004_7c6acb0e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img005_90b02e2a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img006_28dd2090.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img007_7cf85f2a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img008_bdf9a190.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img009_6589c15b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img010_4bdbdcc9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img011_2206a637.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img012_faf6ca30.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img013_eeaccadc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img014_67ffca11.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img015_d4f8582a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img016_5cd4bfc8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img017_a231dae0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img018_2c346e8e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img019_19545c1d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img020_c0d62e74.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img021_07ebf63d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img022_594efa69.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img023_deacee21.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img024_7a3d3844.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img025_d302ca26.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img026_730c51fb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img027_8cde1fc2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img028_9ca9f5b5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img029_1bd3f0cc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img030_7fb2908a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "10_Chapter_10.md",
+      "image_file": "10_Chapter_10_img031_2eee5cd0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img001_434006fa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img002_53e9adba.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img003_e2e3cd13.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img004_08cc56ed.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img005_f881eabb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img006_a99c658c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img007_3b8f73b9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img008_ab6ba340.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img009_ae9531e2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img010_025a6cf1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img011_0147e053.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img012_a4469c39.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img013_40cecd9b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img014_cb6804c2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img015_311d9d98.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img016_1df345f6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img017_2530c4f5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img018_788daa76.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img019_38444de7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img020_0e505bb4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img021_53aa3248.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img022_e649e839.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img023_40e5eb6c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img024_2d987441.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img025_79fd775a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img026_d39fd65e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img027_9c1ed83b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img028_91ece444.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img029_91fdcc9b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img030_9602d259.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "11_Chapter_11.md",
+      "image_file": "11_Chapter_11_img031_57bb1882.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "12_Chapter_12.md",
+      "image_file": "12_Chapter_12_img001_a57568c6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "12_Chapter_12.md",
+      "image_file": "12_Chapter_12_img002_726a2c98.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "12_Chapter_12.md",
+      "image_file": "12_Chapter_12_img003_f87528be.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "13_Chapter_13.md",
+      "image_file": "13_Chapter_13_img001_ad8d4662.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img001_02d3ae43.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img002_9e8de56d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img003_d1e6d6a5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img004_f1084701.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img005_3c903abf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img006_3c24e0e3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img007_25109c88.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img008_204e07bc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img009_e2f06f7b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img010_abb47615.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img011_84cae21f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img012_fe145022.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img013_9c375654.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img014_6eaa4152.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img015_c020b63a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img016_fbfecca2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img017_d980a26f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img018_22485a01.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img019_ad538af8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img020_a77f307f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img021_e97d3ca5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img022_da7c2b97.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img023_d868dd79.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img024_6218c5be.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img025_de78830b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img026_7b0fd2a8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img027_5ac420fb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img028_b47ec8e0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img029_332d7499.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img030_46c02f7d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img031_7936874d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img032_2e16c4c0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img033_d1ab7951.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img034_41f31192.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img035_841b7765.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img036_bde5cfd9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img037_85e09e30.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img038_cc056e77.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img039_444ad5a0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img040_6c88b472.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img041_5817a0dc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img042_29127ee0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img043_611e0d6a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img044_7e634cb0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img045_e2e5de53.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img046_33480f6d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img047_d1bde206.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img048_c0b27cac.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img049_0240231d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img050_5ec1e07a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img051_ebddab9e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img052_c57e2c41.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img053_296469d0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img054_8befb23d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img055_f525b01a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img056_6554553d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img057_86983ac0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img058_39575926.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img059_fca5b21a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img060_f24365ce.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img061_79ac2852.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img062_5aa64dca.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img063_470607d4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img064_d50f34b6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img065_c3e4e136.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img066_aded9906.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img067_569fe4e7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img068_0775beae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img069_a067137f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img070_5f6d1acf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img071_f95c8f23.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img072_cd300316.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img073_a1e8d951.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img074_fe5f3d64.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img075_3688804f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img076_6c1bf26a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img077_7fff8301.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img078_fde0efdf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img079_694155a1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img080_e426b78f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img081_5e0e8217.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img082_c08fc21c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img083_29bfacc2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img084_c0ab60d1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img085_4a1c33b8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img086_6f8e08ec.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img087_6f881521.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img088_3ca04a59.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "14_Chapter_14.md",
+      "image_file": "14_Chapter_14_img089_d224a043.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img001_4af144a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img002_4539d4f9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img003_81c304c8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img004_9931466c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img005_ee20d416.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img006_4ba68f69.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img007_0999f62b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img008_09d16aef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img009_994d6497.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img010_2a2bfffa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img011_1863b33f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img012_1eace5bd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img013_439076b0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "15_Chapter_15.md",
+      "image_file": "15_Chapter_15_img014_64363aa0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img001_8b0e48e5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img002_f90112dd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img003_fd31f2dd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img004_82c99980.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img005_bccf0df7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img006_13fc070e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img007_8fdfc951.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img008_e9c2d709.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img009_937f83c9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img010_be928dc8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img011_6f8e1762.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img012_643947d6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img013_a0a1474c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img014_149cdbe1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img015_ee3b0dae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img016_f78c9285.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img017_c83f127a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img018_2d2904b1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "16_Chapter_16.md",
+      "image_file": "16_Chapter_16_img019_908a31c5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img001_3157057d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img002_de6b6fe6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img003_4687d95d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img004_506e79aa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img005_617e0ed5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img006_b15f2ef3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img007_36519f82.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img008_7e7534fe.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img009_c92bed64.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img010_be2a7ca5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img011_ebf49052.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img012_28d2e3e2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img013_880f539b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img014_ff6a1428.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img015_45cd7006.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img016_54e224b3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img017_aff748d6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img018_6f6512bf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img019_bd6c540d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img020_5dfda7bb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img021_2a61ad65.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img022_c211b72c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img023_f64836e5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img024_9a4d068a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img025_a52e052f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img026_66416258.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img027_9d67ba4a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img028_7019ac64.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "17_Chapter_17.md",
+      "image_file": "17_Chapter_17_img029_4077108f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img001_62c0fda3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img002_8f6893dd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img003_3c24560e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img004_91622608.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img005_084843aa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img006_b3371162.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img007_c1b84654.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img008_13e41d19.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img009_5a6fa429.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img010_c04f8ab6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img011_5b34db44.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "18_Chapter_18.md",
+      "image_file": "18_Chapter_18_img012_d6c0a32a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img001_11de013c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img002_1b2069f2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img003_bad38350.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img004_0defd472.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img005_a64875ac.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img006_d467beea.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img007_ed2c2c72.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img008_576f3e71.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img009_e561ff75.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img010_2f71569a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img011_f73a1382.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "19_Chapter_19.md",
+      "image_file": "19_Chapter_19_img012_3ce70c7f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img001_7d2e6da7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img002_5baf117a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img003_79c8c6ab.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img004_4ca56367.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img005_5816001f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img006_a70909d2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "20_Chapter_20.md",
+      "image_file": "20_Chapter_20_img007_d3a35d19.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "21_Chapter_21.md",
+      "image_file": "21_Chapter_21_img001_ec54c41d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "21_Chapter_21.md",
+      "image_file": "21_Chapter_21_img002_4f1a85ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "21_Chapter_21.md",
+      "image_file": "21_Chapter_21_img003_56748add.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "21_Chapter_21.md",
+      "image_file": "21_Chapter_21_img004_3f5a0915.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img001_6a3ade38.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img002_0f0d80bc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img003_912ef709.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img004_a7c88e7f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img005_1894716c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img006_1fc63aae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img007_f71d7bcc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "22_Chapter_22.md",
+      "image_file": "22_Chapter_22_img008_474a4006.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img001_3cd12692.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img002_48990d4e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img003_2eb2a3e6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img004_9316f593.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img005_8c42b9ce.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img006_625d74f6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img007_13ba50f5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img008_512a6faa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img009_217334e1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "23_Chapter_23.md",
+      "image_file": "23_Chapter_23_img010_9611582a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "24_Chapter_24.md",
+      "image_file": "24_Chapter_24_img001_dd812c7e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "24_Chapter_24.md",
+      "image_file": "24_Chapter_24_img002_91ef2086.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "24_Chapter_24.md",
+      "image_file": "24_Chapter_24_img003_2f010e66.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "25_Chapter_25.md",
+      "image_file": "25_Chapter_25_img001_d3c9dce6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img001_d47c744a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img002_8d403097.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img003_af47d695.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img004_6fd81fe1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img005_ae8e933b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img006_74d68133.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img007_4bb9afd1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img008_7b9d0c88.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img009_9c3adf55.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img010_8c90d205.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img011_bf933176.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img012_fa1a85cc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img013_cbc94c9b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img014_0c6f82db.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img015_2fbe7b83.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img016_241b881d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img017_30a5bbcc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img018_c4d7d73d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img019_6bec335a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img020_c14ca328.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img021_32d56f1a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img022_a3382b68.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img023_8eba0c0b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img024_3f06ba44.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img025_85cae117.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img026_e49deb7e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img027_a83b0dd5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img028_24953d0a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img029_c5f5269d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img030_466996a7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img031_fa174e82.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img032_388f3397.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img033_d2c2e9d0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img034_ffe4b1fc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img035_f9af1bcf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img036_95f6495b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img037_4c9f9ee8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img038_78235d68.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img039_7a844999.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img040_01bffd35.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img041_dffd0723.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img042_9123fc82.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img043_78faadab.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img044_6f87f367.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img045_0c39477f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img046_2afda3e4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img047_0b9eb4de.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img048_9c6cb7bc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img049_d0a9293a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img050_973ad7f3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img051_9736b7d1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img052_94a8b93b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img053_fdd737a8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img054_38b6c996.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img055_3eccc77f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img056_e9574a4e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img057_42d2817f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img058_fdf7af24.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img059_9c822814.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img060_a109d1ad.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img061_9a3951b2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img062_0406229d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img063_b259856e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img064_8d0bfcd6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img065_29045fc5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img066_79182bbd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img067_cbcdc919.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img068_b7fc33fa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img069_492e4fca.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img070_beb92d17.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img071_964d7a78.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img072_15a715d8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img073_95600e5f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img074_3c4da2ba.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img075_735c0f5d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img076_93e4ef64.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img077_da60c69c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img078_47fbf581.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img079_15b2cae0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img080_63769395.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img081_fc7f273f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img082_b3c8998c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img083_4cfb2552.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img084_cd0bf7e7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img085_4f5e52f9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img086_0e4b52be.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img087_840b0280.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img088_9508a984.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img089_5dacd809.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img090_a36f78ab.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img091_ccb419bf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img092_875116db.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img093_66a4a473.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img094_2456dfc4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img095_290a184e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img096_042ef121.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img097_60cae55f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img098_4cc663d3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img099_77c15f1f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img100_125fc094.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img101_f4fe6d07.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img102_50d56c5e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "26_Chapter_26.md",
+      "image_file": "26_Chapter_26_img103_0df61125.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img001_3667529a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img002_9879a72d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img003_80565644.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img004_0420c86b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img005_e51fb9ac.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img006_968a2970.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img007_625ef0df.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img008_3ee979d4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img009_73694ff7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img010_1ecbcd98.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img011_c64273aa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img012_da21f3d0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img013_128ca043.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img014_f0cc0721.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img015_d6f69de7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img016_f79badce.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img017_ef27bc16.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img018_b57decff.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img019_eb17256b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img020_b9e27d5c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img021_9ff6a150.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img022_6e433b78.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img023_3d810137.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img024_34a41b98.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img025_939c1466.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img026_4a3a8200.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img027_825a76e1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img028_29d6182f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img029_159dc9c5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img030_924b8e62.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img031_bd5379e8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img032_b5acec8a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img033_824a49e3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img034_d1eec4c2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img035_7be0296f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img036_f2ec1542.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img037_2b6bd9a1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img038_93c6ff02.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img039_2de2a467.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img040_b9d037dd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img041_41081815.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img042_b3fc5c89.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img043_9e03018a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img044_139a2d2d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img045_10c53426.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img046_a3cb1acc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img047_0a294cd9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img048_fa7d99a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img049_e7e7c3c4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img050_32032947.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img051_ec26aa94.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img052_71ef9101.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img053_a35c37cc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img054_6048fcdc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img055_5f57df4f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img056_096ed044.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img057_24d72e05.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img058_bf83c3c8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img059_46076928.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img060_b3d188c4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img061_9bf475d5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img062_972be4fd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img063_982290d6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img064_f2070222.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img065_940243fd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img066_22e5b33e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img067_0e059c49.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img068_d789754e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img069_5aac2d7d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img070_0fda21f7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img071_51216fe0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img072_b06e6d7c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img073_2ef8bce1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img074_1aa4808e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img075_acfe7504.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img076_f0f56236.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img077_6194edcc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img078_a754d0d3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img079_30283f56.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img080_d91e47ed.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img081_4f931188.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img082_e4b96247.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img083_61034317.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img084_cfca2551.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img085_7b70feaa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img086_9ad2ba84.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img087_55505a20.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img088_4be41af5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "27_Chapter_27.md",
+      "image_file": "27_Chapter_27_img089_f674d9d3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img001_b3639a8f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img002_6a2a7951.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img003_b0e152b0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img004_eca706d2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img005_4d74bb8a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img006_c7fcf624.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img007_f0c6f4d6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img008_9a350a71.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img009_fa261828.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img010_4f63e407.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img011_1f369e4c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img012_9d6bd64e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img013_d64bf290.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img014_609d742a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img015_46f143e9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img016_4a3a2330.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img017_55bd6543.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img018_870cd4b3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img019_5ba59f0d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img020_6fe45354.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img021_69961507.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img022_d4b6c3ed.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img023_18985c08.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img024_2ff81bb8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img025_3000c6ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img026_344a0fd6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img027_c8abd47b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img028_632923f7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img029_174e41bd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img030_1c4e806a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img031_e2ef24ba.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img032_14907c21.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img033_87ba16b7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img034_a4f2b24e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img035_919ad018.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img036_896c0bf7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img037_6d8304cb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img038_cd0ddfe6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img039_2dc75ecd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img040_b8b2e0d3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img041_dd3f15ec.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img042_011be4d8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img043_9344286f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img044_aa2b7967.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img045_10bd990a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img046_2b94eb69.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img047_dc4ee943.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img048_fda48477.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img049_736fff15.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img050_146c5498.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img051_40f8aed4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img052_89bb4931.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img053_07c04c6f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img054_66d914bb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img055_87e37954.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img056_7a40cb36.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img057_a131f6d5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img058_48b5c6dd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img059_f001e845.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img060_1f3e57d8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "28_Chapter_28.md",
+      "image_file": "28_Chapter_28_img061_25af640f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img001_a53696bd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img002_f21976a3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img003_185806de.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img004_4afcb482.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img005_6e2220ef.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img006_b778ffa4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img007_a61bbf9e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img008_9aac30d4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img009_838d54d8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img010_d63bf0a0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img011_6d973c7c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img012_673a5fd5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img013_05b2523e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img014_e9a514ae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img015_371d6672.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img016_3163f29d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img017_73532866.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img018_c9190353.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img019_6ac65290.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img020_ab2ce85f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img021_647321f5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img022_3b62dd28.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img023_d0046e63.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img024_cbf9eb99.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img025_ee2e195d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img026_d61c292c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img027_86aeb54e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img028_ddb89e13.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img029_1b6e7030.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img030_d6f98ee7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img031_e27411ae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img032_d4c5279a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "29_Chapter_29.md",
+      "image_file": "29_Chapter_29_img033_6d3cf911.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img001_2d270c89.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img002_5b1ec7f7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img003_ee7ddd4d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img004_6c537abd.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img005_fed6c764.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img006_204b47f2.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img007_e40ebbc8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img008_4df98ea8.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img009_50ae7c1c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img010_fa2e4646.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img011_2bdc45cb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img012_7ad52e69.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img013_9c5bdcff.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img014_a2b86766.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img015_1d594481.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img016_4c30c805.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img017_8bcf2d1d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img018_63120cfc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img019_f1ce6c03.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img020_f682b0cf.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img021_ad66274e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img022_3604f03b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img023_bad8608a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img024_bdf1c51d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img025_b1f28c9e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img026_2ff71690.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "30_Chapter_30.md",
+      "image_file": "30_Chapter_30_img027_dd8ec75d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img001_46047faa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img002_6449bfe5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img003_a9f06486.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img004_b7074600.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img005_5c341bfb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img006_c7d60278.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img007_22a4c60e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img008_c712cae5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img009_1773695b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img010_fdda1aea.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img011_53507725.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img012_c773af38.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img013_434cd204.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img014_9c47b15e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img015_2e36cbb7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img016_2e8bf220.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img017_83c761f3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img018_b5b23340.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img019_f7f4468f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img020_3aa2092f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img021_dc7f9b7c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img022_4a9c3d8c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img023_58043993.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img024_241cef5b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img025_20e884b1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img026_f0d2fd1f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img027_5b657066.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img028_2d622912.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img029_2375e0af.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img030_398fdf29.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img031_7354b7ae.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img032_d9e76aaa.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img033_cdf6dac7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img034_89694d99.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "31_Chapter_31.md",
+      "image_file": "31_Chapter_31_img035_0335d9ac.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img001_ac69bbb5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img002_e26d1887.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img003_a4b57a0f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img004_9949ba69.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img005_f10abb34.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img006_dbf1f1f4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img007_262c498f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img008_5d39ea2c.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img009_144ca4e9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img010_f35ba109.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img011_9b22a6f1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img012_533d465a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img013_9fcb4b6a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img014_efc6b948.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img015_ce461bdb.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img016_19a93654.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img017_a942f87a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img018_9040beac.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img019_d07bda25.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "32_Chapter_32.md",
+      "image_file": "32_Chapter_32_img020_9b91377f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img001_bad71699.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img002_17516e8e.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img003_f0c13c95.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img004_55e77922.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img005_0a7d6a34.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img006_5d68ea03.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img007_14b9d4e9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img008_7d58b447.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img009_67522fa0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img010_e112f828.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img011_bd3d6118.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img012_a75a0aff.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img013_db5bac97.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img014_93ca34da.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img015_159a0df6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img016_c972d589.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img017_28842c50.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img018_1ce4a844.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img019_9b6a8b36.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img020_a3fd1351.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img021_4d85c0cc.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img022_ae0843a4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "33_Chapter_33.md",
+      "image_file": "33_Chapter_33_img023_086183ed.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img001_f37100d4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img002_647a837b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img003_9d07577b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img004_bffec6d0.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img005_73a59450.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img006_c333c8b3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img007_8d43a61d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img008_ce2957b4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img009_8c998268.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img010_6d984774.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img011_1586e48d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img012_8bf79dd3.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img013_cdd59b54.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img014_784d6f93.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img015_1d3e31e9.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img016_fc7a16a7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img017_7ffb966f.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img018_82dfa45d.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img019_4ab7258b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img020_87807036.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img021_5eeda485.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img022_f3618e9b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img023_1fa6c503.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img024_da85490a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img025_aef4d3f4.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img026_084e5195.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img027_a3ed6ba6.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img028_a7e7bbf5.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img029_a122552b.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img030_f531a822.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img031_f7b81d33.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img032_15465fa7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img033_ced5574a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img034_54490fc1.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img035_5ec4a146.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img036_3e832f3a.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img037_8576b2e7.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    },
+    {
+      "source_file": "34_Chapter_34.md",
+      "image_file": "34_Chapter_34_img038_7a7483de.png",
+      "mime_type": "png",
+      "alt_text": "Image"
+    }
+  ]
+}

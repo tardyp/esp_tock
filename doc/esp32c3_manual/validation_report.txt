@@ -1,0 +1,24 @@
+Validation Report
+Original: esp32-c3_technical_reference_manual_en.md
+Output: esp32c3_manual
+
+ INFO:
+   Original chapters: 34
+   Extracted chapters: 34
+   All chapters accounted for
+   Original content: 47,849,550 characters
+   Output content: 1,592,939 characters
+   Image references found: 1001
+   Image files in images/: 1001
+   Internal links found: 200
+
+ WARNINGS:
+   Files without frontmatter: 1
+     - 00_Header.md
+
+ ERRORS:
+   Significant content loss detected (96.7% missing)
+
+Validation FAILED
+  Errors: 1
+  Warnings: 2

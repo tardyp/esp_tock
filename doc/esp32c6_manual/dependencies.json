@@ -1,0 +1,862 @@
+{
+  "generated_date": "2026-02-10T16:20:24.873603",
+  "source_directory": "esp32c6_manual",
+  "total_modules": 40,
+  "modules": [
+    {
+      "chapter": 0,
+      "title": "00_Header",
+      "file": "00_Header.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 1,
+      "title": "Chapter 1",
+      "file": "01_Chapter_1.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 2,
+      "title": "Chapter 2",
+      "file": "02_Chapter_2.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 3,
+      "title": "Chapter 3",
+      "file": "03_Chapter_3.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 4,
+      "title": "Chapter 4",
+      "file": "04_Chapter_4.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 5,
+      "title": "Chapter 5",
+      "file": "05_Chapter_5.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [],
+      "related_modules": []
+    },
+    {
+      "chapter": 6,
+      "title": "Chapter 6",
+      "file": "06_Chapter_6.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 7,
+      "title": "Chapter 7",
+      "file": "07_Chapter_7.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 8,
+      "title": "Chapter 8",
+      "file": "08_Chapter_8.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Configuration"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 9,
+      "title": "Chapter 9",
+      "file": "09_Chapter_9.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": false,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [],
+      "related_modules": []
+    },
+    {
+      "chapter": 10,
+      "title": "Chapter 10",
+      "file": "10_Chapter_10.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 11,
+      "title": "Chapter 11",
+      "file": "11_Chapter_11.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": false,
+        "dma": true,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 12,
+      "title": "Chapter 12",
+      "file": "12_Chapter_12.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 13,
+      "title": "Chapter 13",
+      "file": "13_Chapter_13.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 14,
+      "title": "Chapter 14",
+      "file": "14_Chapter_14.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 15,
+      "title": "Chapter 15",
+      "file": "15_Chapter_15.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 16,
+      "title": "Chapter 16",
+      "file": "16_Chapter_16.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 17,
+      "title": "Chapter 17",
+      "file": "17_Chapter_17.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Configuration",
+        "Address"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 18,
+      "title": "Chapter 18",
+      "file": "18_Chapter_18.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 19,
+      "title": "Chapter 19",
+      "file": "19_Chapter_19.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 20,
+      "title": "Chapter 20",
+      "file": "20_Chapter_20.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 21,
+      "title": "Chapter 21",
+      "file": "21_Chapter_21.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": true,
+        "interrupts": false,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 22,
+      "title": "Chapter 22",
+      "file": "22_Chapter_22.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 23,
+      "title": "Chapter 23",
+      "file": "23_Chapter_23.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 24,
+      "title": "Chapter 24",
+      "file": "24_Chapter_24.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Configuration"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 25,
+      "title": "Chapter 25",
+      "file": "25_Chapter_25.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": false,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 26,
+      "title": "Chapter 26",
+      "file": "26_Chapter_26.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Data"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 27,
+      "title": "Chapter 27",
+      "file": "27_Chapter_27.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 28,
+      "title": "Chapter 28",
+      "file": "28_Chapter_28.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 29,
+      "title": "Chapter 29",
+      "file": "29_Chapter_29.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 30,
+      "title": "Chapter 30",
+      "file": "30_Chapter_30.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 31,
+      "title": "Chapter 31",
+      "file": "31_Chapter_31.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 32,
+      "title": "Chapter 32",
+      "file": "32_Chapter_32.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 33,
+      "title": "Chapter 33",
+      "file": "33_Chapter_33.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 34,
+      "title": "Chapter 34",
+      "file": "34_Chapter_34.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": false,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 35,
+      "title": "Chapter 35",
+      "file": "35_Chapter_35.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Configuration",
+        "Data",
+        "Address",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 36,
+      "title": "Chapter 36",
+      "file": "36_Chapter_36.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": false,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 37,
+      "title": "Chapter 37",
+      "file": "37_Chapter_37.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": false,
+        "power": true,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 38,
+      "title": "Chapter 38",
+      "file": "38_Chapter_38.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": false,
+        "safety": false
+      },
+      "register_types": [
+        "Control",
+        "Status",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    },
+    {
+      "chapter": 39,
+      "title": "Chapter 39",
+      "file": "39_Chapter_39.md",
+      "category": "Other",
+      "dependencies": {
+        "clocks": true,
+        "resets": false,
+        "interrupts": true,
+        "dma": true,
+        "power": true,
+        "safety": true
+      },
+      "register_types": [
+        "Control",
+        "Configuration",
+        "Data",
+        "Interrupt"
+      ],
+      "related_modules": []
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "Other": 40
+    },
+    "by_dependency": {
+      "clocks": 25,
+      "resets": 6,
+      "interrupts": 36,
+      "dma": 17,
+      "power": 20,
+      "safety": 14
+    }
+  }
+}
