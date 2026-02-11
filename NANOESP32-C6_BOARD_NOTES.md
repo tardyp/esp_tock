@@ -82,83 +82,142 @@ screen /dev/ttyACM0 115200
 
 ## GPIO Pinout
 
-### Available GPIOs
+### Available GPIOs ✅ VERIFIED FROM SCHEMATIC
 
-**Based on ESP32-C6-WROOM-1 module (QFN40 package with internal flash):**
+**Based on ESP32-C6-WROOM-1 module and nanoESP32-C6 v1.0 schematic:**
 
 | GPIO Range | Status | Notes |
 |------------|--------|-------|
-| GPIO0-GPIO7 | ✅ Available | Standard GPIO, some with special functions |
-| GPIO8-GPIO15 | ✅ Available | Standard GPIO |
-| GPIO16-GPIO21 | ✅ Available | Standard GPIO |
-| GPIO22-GPIO25 | ✅ Available | Standard GPIO |
-| GPIO26-GPIO31 | ⚠️ Flash Interface | Used for internal flash, **NOT AVAILABLE** |
+| GPIO0-GPIO7 | ✅ Available | GPIO0-6 have ADC capability |
+| GPIO8 | ✅ Available | Strapping pin (use with caution) |
+| GPIO9 | ⚠️ Boot Button | Available but connected to S1 button |
+| GPIO10-GPIO13 | ✅ Available | Standard GPIO |
+| GPIO15 | ✅ Available | Strapping pin (use with caution) |
+| GPIO16 | 🔴 RGB LED | **Dedicated to WS2812B RGB LED control** |
+| GPIO17 | ✅ Available | General purpose |
+| GPIO18-GPIO23 | ✅ Available | Standard GPIO |
+| RXD0 (Pin 25) | ⚠️ UART0 RX | Connected to CH343P, but exposed on header |
+| TXD0 (Pin 26) | 🔴 UART0 TX | **Reserved** - Connected to CH343P, not on header |
+| GPIO26-GPIO31 | ❌ Flash Interface | Used for internal flash, **NOT AVAILABLE** |
 
-**Total Available GPIOs:** ~26 pins (GPIO0-25)
+**Total Available GPIOs:** 20 pins (GPIO0-13, GPIO15, GPIO17-23)  
+**Hardware-Dedicated:** GPIO16 (RGB LED), GPIO9 (Boot button)
 
-### Special Function Pins
+### Special Function Pins ✅ VERIFIED
 
-| GPIO | Default Function | Tock Use |
-|------|------------------|----------|
-| GPIO0 | Boot mode control | Available after boot |
-| GPIO8 | RGB LED? | LED driver (need to verify) |
-| GPIO9 | Button? | Button input (need to verify) |
-| GPIO16 | UART0 RX | Console UART |
-| GPIO17 | UART0 TX | Console UART |
+| GPIO | Function | Usage | Notes |
+|------|----------|-------|-------|
+| **GPIO9** | Boot Button (S1) | Input, active-low | Hardware pulled HIGH, LOW when pressed |
+| **GPIO16** | RGB LED Control | WS2812B driver | Via BSS138 level shifter (inverted!) |
+| **TXD0 (Pin 26)** | UART0 TX | Console output | To CH343P, not exposed on header |
+| **RXD0 (Pin 25)** | UART0 RX | Console input | From CH343P, exposed on J6 pin 15 |
+| **EN (Pin 3)** | Reset Button (S2) | Hardware reset | 10kΩ pull-up, not software readable |
 
 **Note:** Exact RGB LED and button pins need verification from schematic (`nanoESP32-C6/hardware/nanoESP32C6.pdf`)
 
-### Strapping Pins
+### Strapping Pins ✅ VERIFIED
 
 ESP32-C6 has strapping pins that affect boot mode:
-- GPIO8: Boot mode selection
-- GPIO9: Boot mode selection  
-- GPIO15: ROM messages enable/disable
+- **GPIO8:** Boot mode selection (safe to use after boot)
+- **GPIO9:** Boot mode selection (connected to S1 button, pulled HIGH)
+- **GPIO15:** ROM messages enable/disable (safe to use after boot)
 
 **During normal operation:** These pins are safe to use after boot completes.
 
+### ADC-Capable Pins ✅ VERIFIED
+
+ESP32-C6 has 7 ADC channels on the following GPIOs:
+- **GPIO0-GPIO6:** 12-bit SAR ADC (ADC1)
+
+**Note:** GPIO7 and above do not have ADC capability.
+
 ---
 
-## RGB LED
+## RGB LED ✅ VERIFIED FROM SCHEMATIC
 
-### Configuration
+### Hardware Configuration
 
-The board includes an RGB LED, likely WS2812/WS2812B or compatible.
+The board includes a **WS2812B** addressable RGB LED with a level shifter circuit.
 
-**Expected Characteristics:**
-- **Type:** WS2812B or SK6812 (addressable RGB)
-- **Interface:** Single-wire serial (not SPI)
-- **Voltage:** 3.3V compatible
-- **Control:** Bit-banging or RMT peripheral
+**Specifications:**
+- **Type:** WS2812B (confirmed from schematic, designator D2)
+- **Control GPIO:** GPIO16 (ESP32-C6 internal GPIO)
+- **Interface:** Single-wire, 800kHz timing protocol
+- **Power:** 5V rail (not 3.3V!)
+- **Current:** ~60mA max (20mA per color @ full brightness)
+- **Color Order:** GRB (Green-Red-Blue, not RGB!)
 
-**GPIO Pin:** TBD - need to check schematic
+### Level Shifter Circuit ⚠️ CRITICAL
 
-**Tock Implementation Options:**
+**Hardware Implementation:**
+```
+GPIO16 ──[10kΩ R2]──→ BSS138 MOSFET Gate
+                      Source → GND
+                      Drain → WS2812B DIN
 
-1. **Bit-banging (like C3 SK68xx driver):**
+5V ──[10kΩ R4]──→ WS2812B DIN (pull-up)
+
+WS2812B:
+  VDD (Pin 3) → 5V
+  GND (Pin 2) → GND
+  DIN (Pin 4) → From MOSFET drain
+  DOUT (Pin 1) → Not connected
+```
+
+**⚠️ CRITICAL: Signal is INVERTED by the MOSFET!**
+- GPIO16 LOW → MOSFET OFF → DIN pulled HIGH (5V) → LED sees HIGH
+- GPIO16 HIGH → MOSFET ON → DIN pulled LOW (0V) → LED sees LOW
+
+**Driver must invert the signal before transmission!**
+
+### Tock Implementation Options:
+
+1. **Bit-banging (like C3 SK68xx driver) - Quick Start:**
    ```rust
-   // Can reuse existing SK68xx capsule
+   // Can reuse existing SK68xx capsule with modifications
+   // CRITICAL: Must invert signal due to MOSFET
    let led = static_init!(
        capsules_extra::sk68xx::SK68xx<'static, ...>,
-       capsules_extra::sk68xx::SK68xx::new(gpio_pin, ...)
+       capsules_extra::sk68xx::SK68xx::new(
+           &peripherals.gpio.pins[16],  // GPIO16
+           inverted: true,  // Account for BSS138 inversion
+           // ...
+       )
    );
    ```
 
-2. **RMT peripheral (future optimization):**
-   - More precise timing
-   - Less CPU intensive
+2. **RMT peripheral (recommended for production):**
+   - More precise timing (±150ns tolerance met easily)
+   - Less CPU intensive (hardware handles timing)
    - Requires RMT driver implementation
+   - Can handle inversion in hardware configuration
 
-**Testing:**
+### WS2812B Timing Requirements
+
+**From WS2812B datasheet:**
+- **T0H:** 0.4µs ±150ns (Logic 0, high time)
+- **T0L:** 0.85µs ±150ns (Logic 0, low time)
+- **T1H:** 0.8µs ±150ns (Logic 1, high time)
+- **T1L:** 0.45µs ±150ns (Logic 1, low time)
+- **Reset:** >50µs low
+
+**For 160MHz CPU (bit-banging):**
+- Each cycle = 6.25ns
+- T0H: ~64 cycles
+- T0L: ~136 cycles
+- T1H: ~128 cycles
+- T1L: ~72 cycles
+
+**Testing (remember GRB order!):**
 ```rust
-// Set RGB LED to red
-led.set_rgb(255, 0, 0);
+// Set RGB LED to RED (actually GRB: 0, 255, 0)
+led.set_grb(0, 255, 0);
 
-// Set to green  
-led.set_rgb(0, 255, 0);
+// Set to GREEN (GRB: 255, 0, 0)
+led.set_grb(255, 0, 0);
 
-// Set to blue
-led.set_rgb(0, 0, 255);
+// Set to BLUE (GRB: 0, 0, 255)
+led.set_grb(0, 0, 255);
 ```
 
 ---
@@ -312,20 +371,29 @@ const UART0_RX_PIN: usize = 16;
 const UART0_TX_PIN: usize = 17;
 ```
 
-### Common Peripherals (TBD - verify from schematic)
+### Common Peripherals ✅ VERIFIED
 
-| Peripheral | Likely GPIO | Purpose |
-|------------|-------------|---------|
-| RGB LED | GPIO8? | Visual indicator |
-| Button | GPIO9? | User input |
-| I2C SDA | GPIO6 | I2C (if implemented) |
-| I2C SCL | GPIO7 | I2C (if implemented) |
-| SPI MISO | GPIO2 | SPI (if implemented) |
-| SPI MOSI | GPIO3 | SPI (if implemented) |
-| SPI CLK | GPIO4 | SPI (if implemented) |
-| SPI CS | GPIO5 | SPI (if implemented) |
+| Peripheral | GPIO | Purpose | Notes |
+|------------|------|---------|-------|
+| **RGB LED** | GPIO16 | Visual indicator | WS2812B, inverted signal |
+| **Boot Button** | GPIO9 | User input / Boot mode | Active-low, hardware pull-up |
+| **UART0 TX** | TXD0 (Pin 26) | Console output | To CH343P |
+| **UART0 RX** | RXD0 (Pin 25) | Console input | From CH343P |
 
-**Action Required:** Review schematic PDF to confirm exact pin assignments.
+### Recommended I2C/SPI Pin Assignments
+
+These are suggestions for applications using I2C or SPI:
+
+| Peripheral | Suggested GPIO | Notes |
+|------------|----------------|-------|
+| I2C SDA | GPIO6 | Also has ADC |
+| I2C SCL | GPIO7 | Standard GPIO |
+| SPI MISO | GPIO2 | Also has ADC |
+| SPI MOSI | GPIO3 | Also has ADC |
+| SPI CLK | GPIO4 | Also has ADC |
+| SPI CS | GPIO5 | Also has ADC |
+
+**Note:** These are recommendations. ESP32-C6 supports flexible pin mapping for most peripherals.
 
 ---
 

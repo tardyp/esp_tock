@@ -6,6 +6,40 @@ This directory contains comprehensive documentation for porting Tock OS from ESP
 
 ## 📚 Documentation Files
 
+### 0. **CRITICAL_FINDINGS.md** 🔥🔥🔥 READ THIS FIRST!
+**Critical hardware discoveries from schematic analysis - MUST READ!**
+
+**Contents:**
+- ⚠️ RGB LED signal inversion (BSS138 MOSFET)
+- ⚠️ GRB color order (not RGB!)
+- ⚠️ GPIO16 is hardware-dedicated
+- ⚠️ CH343P on `/dev/ttyACM0` (not ttyUSB0)
+- ✅ Complete pin verification
+- ✅ 8MB flash layout recommendations
+
+**Purpose:** Prevent critical mistakes before you start coding.
+
+**READ THIS** before writing any code to avoid common pitfalls!
+
+---
+
+### 0.5. **HARDWARE_SUMMARY.md** ⭐⭐⭐ Quick Reference
+**Critical hardware info for nanoESP32-C6 - keep this open while coding!**
+
+**Contents:**
+- Pin assignments (verified from schematic)
+- RGB LED on GPIO16 (WS2812B, inverted signal!)
+- Boot button on GPIO9
+- UART0 configuration
+- Memory layout recommendations
+- Common pitfalls and solutions
+
+**Purpose:** Quick reference for hardware-specific details during development.
+
+**Use this** when you need to check a pin number or hardware configuration quickly.
+
+---
+
 ### 1. **ESP32-C6_DIFFERENCES.md** ⭐ Start Here
 **Comprehensive technical analysis of differences between ESP32-C3 and ESP32-C6**
 

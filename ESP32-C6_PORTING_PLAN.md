@@ -764,13 +764,17 @@ impl Clint {
    - `GPIO_IN_REG` - 32 bits
    - Per-pin registers up to GPIO30
 
-4. Test with LED blink:
+4. Test with simple GPIO toggle:
    ```rust
-   // Assuming LED on GPIO8 like C3
-   let led = &peripherals.gpio.pins[8];
-   led.make_output();
-   led.set();  // Turn on
-   // ... timer-based blink
+   // nanoESP32-C6: RGB LED is on GPIO16 but requires WS2812B driver
+   // For simple GPIO test, use any available pin like GPIO0
+   let test_pin = &peripherals.gpio.pins[0];
+   test_pin.make_output();
+   test_pin.set();  // Turn on
+   test_pin.clear();  // Turn off
+   
+   // Note: GPIO16 is connected to WS2812B RGB LED via level shifter
+   // See Step 2.6 for RGB LED implementation
    ```
 
 **Package Consideration:**
@@ -911,7 +915,84 @@ impl Clint {
 - System clock configured correctly
 - Peripheral clocks enabled
 
-### Step 2.5: Basic Application Test
+### Step 2.5: RGB LED Driver (Optional but Recommended)
+
+**Duration:** 2-3 days
+
+**Hardware:** nanoESP32-C6 has WS2812B RGB LED on GPIO16
+
+**⚠️ CRITICAL Hardware Details:**
+- **GPIO:** GPIO16
+- **Type:** WS2812B addressable RGB LED
+- **Level Shifter:** BSS138 MOSFET (signal is INVERTED!)
+- **Color Order:** GRB (not RGB!)
+- **Power:** 5V (not 3.3V)
+
+**Tasks:**
+
+1. **Option A: Bit-banging (Quick Start)**
+   
+   Reuse ESP32-C3 SK68xx driver with modifications:
+   ```rust
+   // In main.rs setup()
+   let rgb_led_pin = &peripherals.gpio.pins[16];
+   
+   let rgb_led = static_init!(
+       capsules_extra::sk68xx::SK68xx<'static, ...>,
+       capsules_extra::sk68xx::SK68xx::new(
+           rgb_led_pin,
+           // CRITICAL: Set inverted=true for MOSFET level shifter
+           inverted: true,
+       )
+   );
+   
+   // Test colors (remember GRB order!)
+   rgb_led.set_grb(255, 0, 0);  // Green
+   rgb_led.set_grb(0, 255, 0);  // Red
+   rgb_led.set_grb(0, 0, 255);  // Blue
+   ```
+
+2. **Option B: RMT Peripheral (Recommended for Production)**
+   
+   Create RMT driver for precise timing:
+   ```rust
+   // Create RMT driver (new implementation needed)
+   let rmt = static_init!(
+       esp32_c6::rmt::Rmt,
+       esp32_c6::rmt::Rmt::new(RMT_BASE, /* ... */)
+   );
+   
+   // Configure for WS2812B
+   rmt.configure_ws2812b(
+       gpio: 16,
+       inverted: true,
+   );
+   ```
+
+3. **Visual Boot Indicator**
+   
+   Use RGB LED for boot stage indication:
+   ```rust
+   // Early boot stages
+   fn indicate_boot_stage(led: &RgbLed, stage: u8) {
+       match stage {
+           0 => led.set_grb(255, 0, 0),   // Green: Boot start
+           1 => led.set_grb(0, 255, 0),   // Red: Peripherals init
+           2 => led.set_grb(0, 0, 255),   // Blue: Apps loading
+           3 => led.set_grb(255, 255, 0), // Yellow: Boot complete
+           _ => led.set_grb(0, 0, 0),     // Off: Error
+       }
+   }
+   ```
+
+**Deliverables:**
+- RGB LED working (at least one color)
+- Visual boot indicator functional
+- LED can be controlled from userspace (optional)
+
+**Note:** This step is optional but highly recommended for debugging. The RGB LED provides valuable visual feedback before UART is working.
+
+### Step 2.6: Basic Application Test
 
 **Duration:** 1-2 days
 
@@ -957,7 +1038,8 @@ impl Clint {
 
 **Phase 2 Complete When:**
 - [x] UART console output works
-- [x] GPIO can toggle LED
+- [x] GPIO can toggle pins
+- [x] RGB LED shows boot stages (GPIO16)
 - [x] Timer interrupts fire
 - [x] Basic app runs
 - [x] System calls work
@@ -1388,9 +1470,9 @@ impl Clint {
    - Fault response
    - Memory allocation
 
-4. Set up board-specific features:
-   - LED on GPIO8 (or appropriate pin for C6 board)
-   - Button on GPIO9 (or appropriate pin)
+4. Set up board-specific features (nanoESP32-C6):
+   - RGB LED on GPIO16 (WS2812B, inverted signal)
+   - Boot button on GPIO9 (active-low, hardware pull-up)
 
 **Deliverables:**
 - Complete board initialization
