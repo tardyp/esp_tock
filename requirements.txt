@@ -1,0 +1,5 @@
+# Python dependencies for ESP32-C6 hardware testing
+# Install with: uv pip install --system --native-tls -r requirements.txt
+# Note: --system flag for system Python, --native-tls for macOS certificate handling
+
+pyserial>=3.5
