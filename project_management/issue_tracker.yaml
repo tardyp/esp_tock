@@ -9,7 +9,7 @@
 # Type: bug, techdebt, enhancement, question
 # Status: open, in_progress, resolved, wont_fix
 
-next_id: 7
+next_id: 8
 
 issues:
   - id: 1
@@ -27,34 +27,40 @@ issues:
     severity: high
     type: techdebt
     title: "Watchdog disable not implemented"
-    status: open
-    sprint: PI001/SP001
+    status: resolved
+    sprint: PI002/SP001
     created_by: reviewer
     created_at: 2026-02-10
-    resolved_at: null
-    notes: "TODO at main.rs:132. Watchdog not disabled may cause unexpected resets after 1-2 seconds. Critical for hardware stability. Should be implemented in SP002."
+    resolved_at: 2026-02-12
+    resolved_by: implementor
+    verified_by: integrator
+    notes: "RESOLVED in PI002/SP001. Implemented watchdog.rs module to disable MWDT0, MWDT1, and RTC WDT. Hardware testing confirmed zero watchdog resets during 65-second stability test. See project_management/PI002_CorePeripherals/SP001_WatchdogClock/ for implementation and test reports."
   
   - id: 3
     severity: medium
     type: techdebt
     title: "Clock configuration not implemented"
-    status: open
-    sprint: PI001/SP001
+    status: resolved
+    sprint: PI002/SP001
     created_by: reviewer
     created_at: 2026-02-10
-    resolved_at: null
-    notes: "TODO at main.rs:133. Running on bootloader default clocks. Should implement PCR-based clock configuration in SP002 for optimal performance."
+    resolved_at: 2026-02-12
+    resolved_by: implementor
+    verified_by: integrator
+    notes: "RESOLVED in PI002/SP001. Implemented pcr.rs module for peripheral clock and reset management. Configured TIMG0/1 clocks with XTAL source (40 MHz), enabled UART0/1 clocks. Hardware testing confirmed peripheral clocks functional. See project_management/PI002_CorePeripherals/SP001_WatchdogClock/ for implementation and test reports."
   
   - id: 4
     severity: high
     type: techdebt
     title: "INTC driver not implemented - placeholder interrupt handling"
-    status: open
-    sprint: PI001/SP001
+    status: resolved
+    sprint: PI002/SP002
     created_by: reviewer
     created_at: 2026-02-10
-    resolved_at: null
-    notes: "chip.rs has placeholder interrupt handling. service_pending_interrupts() and has_pending_interrupts() are stubs. handle_interrupt() just re-enables interrupts. Real INTC driver needed in SP002 for proper interrupt routing."
+    resolved_at: 2026-02-12
+    resolved_by: implementor
+    verified_by: integrator
+    notes: "RESOLVED in PI002/SP002. Implemented complete two-stage INTC driver: intmtx.rs (interrupt matrix mapping), intpri.rs (priority and enable control), intc.rs (unified interface). Integrated into chip.rs with proper service_pending_interrupts() and has_pending_interrupts() implementations. Hardware validated successfully - INTC initializes correctly, no spurious interrupts, system stable. See project_management/PI002_CorePeripherals/SP002_INTC/ for implementation and test reports."
   
   - id: 5
     severity: high
@@ -77,3 +83,14 @@ issues:
     created_at: 2026-02-12
     resolved_at: null
     notes: "boards/nano-esp32-c6/src/io.rs:12-14 - Clippy reports Writer struct and WRITER static as dead_code, but they are used in panic_fmt() via unsafe pointer. Add #[allow(dead_code)] attribute to suppress false positive."
+  
+  - id: 7
+    severity: low
+    type: techdebt
+    title: "Stale TODO comment in chip.rs handle_interrupt()"
+    status: open
+    sprint: PI002/SP002
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "tock/chips/esp32-c6/src/chip.rs:228 - TODO comment 'Implement interrupt handling with INTC' is stale. INTC is now implemented and integrated into service_pending_interrupts(). The handle_interrupt() function is a low-level trap handler that correctly just re-enables interrupts. Update comment to clarify this is the trap handler, not the dispatch handler, and add reference to service_pending_interrupts()."

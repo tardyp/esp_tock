@@ -1,0 +1,13 @@
+[2026-02-12T12:37:26Z INFO ] Serial port: '/dev/tty.usbmodem112201'
+[2026-02-12T12:37:26Z INFO ] Connecting...
+[2026-02-12T12:37:27Z INFO ] Using flash stub
+Chip type:         esp32c6 (revision v0.1)
+Crystal frequency: 40 MHz
+Flash size:        16MB
+Features:          WiFi 6, BT 5
+MAC address:       40:4c:ca:5e:ae:b8
+App/part. size:    29,744/4,128,768 bytes, 0.72%
+[2026-02-12T12:37:27Z INFO ] Segment at address '0x0' has not changed, skipping write
+[2026-02-12T12:37:27Z INFO ] Segment at address '0x8000' has not changed, skipping write
+[2026-02-12T12:37:27Z INFO ] Segment at address '0x10000' has not changed, skipping write
+[2026-02-12T12:37:27Z INFO ] Flashing has completed!
