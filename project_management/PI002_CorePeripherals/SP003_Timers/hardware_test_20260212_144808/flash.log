@@ -1,0 +1,9 @@
+[2026-02-12T13:48:08Z INFO ] Serial port: '/dev/tty.usbmodem112201'
+[2026-02-12T13:48:08Z INFO ] Connecting...
+Error: espflash::connection_failed
+
+  × Error while connecting to device
+  ╰─▶ Failed to connect to the device
+  help: Ensure that the device is connected and the reset and boot pins are
+        not being held down
+
