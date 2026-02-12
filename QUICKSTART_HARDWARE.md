@@ -24,8 +24,8 @@ cd ..
 # Install uv (if not already installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Install pyserial
-uv pip install pyserial
+# Install pyserial and esptool (required for elf2image conversion)
+uv pip install --system --native-tls -r requirements.txt
 ```
 
 ### 3. Verify hardware connection
@@ -120,9 +120,9 @@ cargo build --release --bin espflash
 cd ..
 ```
 
-### "pyserial not installed"
+### "pyserial or esptool not installed"
 ```bash
-uv pip install pyserial
+uv pip install --system --native-tls -r requirements.txt
 ```
 
 ## Port Reference

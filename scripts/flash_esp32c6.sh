@@ -2,13 +2,22 @@
 #
 # Flash ESP32-C6 Hardware Test Script
 #
+# Boot Flow: Embassy-style Direct Boot (NO ESP-IDF bootloader)
+# ============================================================
+# 1. ESP32-C6 ROM bootloader (in ROM, always runs first)
+# 2. ROM reads flash offset 0x0 → CPU address 0x42000000
+# 3. ROM validates espflash image header (32 bytes)
+# 4. ROM jumps to entry point at 0x42000020
+# 5. Tock kernel starts
+#
+# This approach matches embassy-rs and avoids ESP-IDF bootloader complexity.
+# No partition table, no app descriptor, no 2nd stage bootloader required.
+#
 # Usage:
 #   ./flash_esp32c6.sh <kernel.elf>
-#   ./flash_esp32c6.sh <bootloader.bin> <partition.bin> <app.bin>
 #
 # Examples:
-#   ./flash_esp32c6.sh path/to/nano-esp32-c6-board
-#   ./flash_esp32c6.sh bootloader.bin partition-table.bin app.bin
+#   ./flash_esp32c6.sh tock/target/riscv32imac-unknown-none-elf/release/nano-esp32-c6-board
 #
 
 set -e
@@ -16,7 +25,6 @@ set -e
 # Configuration
 FLASH_PORT="${FLASH_PORT:-/dev/tty.usbmodem112201}"  # ESP32-C6 native USB
 CHIP="esp32c6"
-ESPFLASH="./espflash/target/release/espflash"
 
 # Colors for output
 RED='\033[0;31m'
@@ -37,12 +45,16 @@ log_error() {
     echo -e "${RED}[ERROR]${NC} $1"
 }
 
-# Check if espflash exists
-if [ ! -f "$ESPFLASH" ]; then
-    log_error "espflash not found at $ESPFLASH"
-    log_info "Building espflash..."
-    cd espflash && cargo build --release --bin espflash && cd ..
+# Check if espflash is available (required for direct boot)
+if ! command -v espflash &> /dev/null; then
+    log_error "espflash not found in PATH"
+    log_info "Install with: cargo install espflash"
+    log_info "Or use system espflash if available"
+    exit 1
 fi
+
+log_info "Using espflash: $(which espflash)"
+log_info "Version: $(espflash --version)"
 
 # Auto-detect port if not set
 if [ ! -e "$FLASH_PORT" ]; then
@@ -69,71 +81,60 @@ fi
 log_info "Using port: $FLASH_PORT"
 
 # Check arguments
-if [ $# -eq 0 ]; then
-    log_error "Usage: $0 <kernel.elf> OR $0 <bootloader.bin> <partition.bin> <app.bin>"
+if [ $# -ne 1 ]; then
+    log_error "Usage: $0 <kernel.elf>"
+    log_error "Example: $0 tock/target/riscv32imac-unknown-none-elf/release/nano-esp32-c6-board"
     exit 1
 fi
 
-# Determine flashing mode
-if [ $# -eq 1 ]; then
-    # Single ELF file mode
-    KERNEL_ELF="$1"
-    
-    if [ ! -f "$KERNEL_ELF" ]; then
-        log_error "Kernel ELF not found: $KERNEL_ELF"
-        exit 1
-    fi
-    
-    log_info "Flashing ELF file: $KERNEL_ELF"
-    
-    # Flash using espflash flash command (handles bootloader automatically)
-    $ESPFLASH flash \
-        --chip $CHIP \
-        --port $FLASH_PORT \
-        "$KERNEL_ELF"
-    
-    log_info "Resetting board..."
-    $ESPFLASH reset --port $FLASH_PORT
-    
-    log_info "✅ Flashing complete!"
-    
-elif [ $# -eq 3 ]; then
-    # Three binary files mode (bootloader, partition, app)
-    BOOTLOADER="$1"
-    PARTITION="$2"
-    APP="$3"
-    
-    # Verify files exist
-    for file in "$BOOTLOADER" "$PARTITION" "$APP"; do
-        if [ ! -f "$file" ]; then
-            log_error "File not found: $file"
-            exit 1
-        fi
-    done
-    
-    log_info "Flashing bootloader: $BOOTLOADER"
-    $ESPFLASH write-bin 0x0 "$BOOTLOADER" \
-        --port $FLASH_PORT --chip $CHIP
-    
-    log_info "Flashing partition table: $PARTITION"
-    $ESPFLASH write-bin 0x8000 "$PARTITION" \
-        --port $FLASH_PORT --chip $CHIP
-    
-    log_info "Flashing application: $APP"
-    $ESPFLASH write-bin 0x10000 "$APP" \
-        --port $FLASH_PORT --chip $CHIP
-    
-    log_info "Resetting board..."
-    $ESPFLASH reset --port $FLASH_PORT
-    
-    log_info "✅ Flashing complete!"
-    
-else
-    log_error "Invalid number of arguments"
-    log_error "Usage: $0 <kernel.elf> OR $0 <bootloader.bin> <partition.bin> <app.bin>"
+KERNEL_ELF="$1"
+
+if [ ! -f "$KERNEL_ELF" ]; then
+    log_error "Kernel ELF not found: $KERNEL_ELF"
     exit 1
 fi
+
+log_info "================================================"
+log_info "ESP32-C6 Direct Boot Flash (Embassy-style)"
+log_info "================================================"
+log_info "Kernel ELF: $KERNEL_ELF"
+log_info "Port: $FLASH_PORT"
+log_info "Chip: $CHIP"
+log_info ""
+
+# Verify ELF entry point is correct for direct boot
+ENTRY_POINT=$(llvm-readelf -h "$KERNEL_ELF" 2>/dev/null | grep "Entry point" | awk '{print $4}')
+if [ "$ENTRY_POINT" != "0x42000020" ]; then
+    log_warn "Entry point is $ENTRY_POINT (expected 0x42000020)"
+    log_warn "This may indicate incorrect linker script configuration"
+    log_warn "Check boards/nano-esp32-c6/layout.ld"
+fi
+
+# Flash using espflash direct mode
+# This creates an ESP32 image with:
+# - 32-byte espflash header at flash offset 0x0
+# - Entry point at 0x42000020 (flash offset 0x20)
+# - No bootloader, no partition table, no app descriptor
+log_info "Flashing kernel with espflash (direct boot mode)..."
+log_info "This will:"
+log_info "  1. Convert ELF to ESP32 image format"
+log_info "  2. Add 32-byte espflash header"
+log_info "  3. Flash to offset 0x0"
+log_info "  4. ROM bootloader will jump to 0x42000020"
+log_info ""
+
+espflash flash \
+    --chip "$CHIP" \
+    --port "$FLASH_PORT" \
+    --flash-mode dio \
+    --flash-freq 80mhz \
+    --monitor \
+    "$KERNEL_ELF"
+
+log_info ""
+log_info "✅ Flashing complete!"
+log_info ""
 
 # Show board info
 log_info "Board information:"
-$ESPFLASH board-info --port $FLASH_PORT
+espflash board-info --port "$FLASH_PORT"

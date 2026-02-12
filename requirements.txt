@@ -2,4 +2,13 @@
 # Install with: uv pip install --system --native-tls -r requirements.txt
 # Note: --system flag for system Python, --native-tls for macOS certificate handling
 
+# Serial communication for monitoring
 pyserial>=3.5
+
+# ESP32 flashing and binary conversion tool
+# Required for elf2image conversion (like ESP32-C3 workflow)
+# Note: Also requires GNU RISC-V binutils for elf2image workflow
+#       macOS: brew install riscv64-elf-binutils
+#       Linux: apt-get install gcc-riscv64-linux-gnu
+# If not available, flash script falls back to espflash
+esptool>=4.7.0

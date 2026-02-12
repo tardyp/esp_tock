@@ -90,13 +90,32 @@ if python3 -c "import serial" 2>/dev/null; then
     log_pass "pyserial installed (version $PYSERIAL_VERSION)"
 else
     log_fail "pyserial not installed"
-    log_info "Install with: uv pip install pyserial"
-    log_info "Or: uv pip install -r requirements.txt"
+    log_info "Install with: uv pip install --system --native-tls pyserial"
+    log_info "Or: uv pip install --system --native-tls -r requirements.txt"
 fi
 echo ""
 
-# Test 5: Check scripts exist
-log_info "Test 5: Script files"
+# Test 5: Check esptool.py
+log_info "Test 5: esptool.py (required for elf2image conversion)"
+if command -v esptool.py &> /dev/null; then
+    ESPTOOL_VERSION=$(esptool.py version 2>&1 | head -n1)
+    log_pass "esptool.py installed ($ESPTOOL_VERSION)"
+    
+    # Verify it supports esp32c6
+    if esptool.py --help 2>&1 | grep -q "esp32c6"; then
+        log_pass "esptool.py supports ESP32-C6"
+    else
+        log_warn "esptool.py may not support ESP32-C6 (old version?)"
+    fi
+else
+    log_fail "esptool.py not installed"
+    log_info "Install with: uv pip install --system --native-tls esptool"
+    log_info "Or: uv pip install --system --native-tls -r requirements.txt"
+fi
+echo ""
+
+# Test 6: Check scripts exist
+log_info "Test 6: Script files"
 SCRIPTS=("flash_esp32c6.sh" "monitor_serial.py" "test_esp32c6.sh")
 for script in "${SCRIPTS[@]}"; do
     if [ -f "scripts/$script" ]; then
@@ -112,8 +131,8 @@ for script in "${SCRIPTS[@]}"; do
 done
 echo ""
 
-# Test 6: Check Rust target
-log_info "Test 6: Rust RISC-V target"
+# Test 7: Check Rust target
+log_info "Test 7: Rust RISC-V target"
 if rustup target list | grep -q "riscv32imc-unknown-none-elf (installed)"; then
     log_pass "riscv32imc-unknown-none-elf target installed"
 else
@@ -122,8 +141,8 @@ else
 fi
 echo ""
 
-# Test 7: Check Tock board directory
-log_info "Test 7: Tock board directory"
+# Test 8: Check Tock board directory
+log_info "Test 8: Tock board directory"
 if [ -d "tock/boards/nano-esp32-c6" ]; then
     log_pass "nano-esp32-c6 board directory exists"
     
@@ -144,8 +163,8 @@ else
 fi
 echo ""
 
-# Test 8: Check for hardware (optional)
-log_info "Test 8: Hardware detection (optional)"
+# Test 9: Check for hardware (optional)
+log_info "Test 9: Hardware detection (optional)"
 if [ -f "./espflash/target/release/espflash" ]; then
     PORTS=$(./espflash/target/release/espflash list-ports 2>/dev/null || echo "")
     if [[ "$PORTS" == *"Espressif"* ]] || [[ "$PORTS" == *"ESP"* ]]; then
@@ -167,8 +186,8 @@ else
 fi
 echo ""
 
-# Test 9: Check documentation
-log_info "Test 9: Documentation files"
+# Test 10: Check documentation
+log_info "Test 10: Documentation files"
 DOCS=("HARDWARE_SETUP.md" "HARDWARE_CHECKLIST.md" "QUICKSTART_HARDWARE.md" "scripts/README.md")
 for doc in "${DOCS[@]}"; do
     if [ -f "$doc" ]; then

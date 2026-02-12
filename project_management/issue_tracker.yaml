@@ -9,7 +9,7 @@
 # Type: bug, techdebt, enhancement, question
 # Status: open, in_progress, resolved, wont_fix
 
-next_id: 5
+next_id: 7
 
 issues:
   - id: 1
@@ -55,3 +55,25 @@ issues:
     created_at: 2026-02-10
     resolved_at: null
     notes: "chip.rs has placeholder interrupt handling. service_pending_interrupts() and has_pending_interrupts() are stubs. handle_interrupt() just re-enables interrupts. Real INTC driver needed in SP002 for proper interrupt routing."
+  
+  - id: 5
+    severity: high
+    type: techdebt
+    title: "PMP disabled - no userspace memory protection"
+    status: open
+    sprint: PI001/SP003
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "chip.rs uses SimplePMP<0> (0 PMP regions) to bypass bootloader-locked entries. This means no userspace memory protection. Acceptable for bring-up but must fix before running untrusted code. Suggested solution: Implement SkipLockedPMP that scans for unlocked entries and uses only those for protection."
+  
+  - id: 6
+    severity: low
+    type: techdebt
+    title: "Clippy false positive on Writer struct in io.rs"
+    status: open
+    sprint: PI001/SP003
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "boards/nano-esp32-c6/src/io.rs:12-14 - Clippy reports Writer struct and WRITER static as dead_code, but they are used in panic_fmt() via unsafe pointer. Add #[allow(dead_code)] attribute to suppress false positive."

@@ -15,7 +15,7 @@
 
 ### 2. Install Dependencies (if needed)
 ```bash
-uv pip install -r requirements.txt
+uv pip install --system --native-tls -r requirements.txt
 ```
 
 ### 3. Build and Flash
@@ -134,12 +134,13 @@ rustup target add riscv32imc-unknown-none-elf  # If target missing
 
 - **Rust:** With `riscv32imc-unknown-none-elf` target
 - **espflash:** v4.3.0 (built from source in `./espflash/`)
-- **Python 3:** For serial monitoring
+- **Python 3:** For serial monitoring and flashing
 - **uv:** Python package manager (install from https://astral.sh/uv)
+- **esptool:** v4.7.0+ for elf2image conversion (install via `uv pip install --system --native-tls esptool`)
 
 ### Optional
 
-- **pyserial:** For `monitor_serial.py` (install via `uv pip install -r requirements.txt`)
+- **pyserial:** For `monitor_serial.py` (install via `uv pip install --system --native-tls -r requirements.txt`)
 
 ---
 
@@ -196,9 +197,9 @@ sudo usermod -a -G dialout $USER
 - Verify firmware outputs to UART0
 - Try 115200 baud rate
 
-**pyserial not installed:**
+**pyserial or esptool not installed:**
 ```bash
-uv pip install -r requirements.txt
+uv pip install --system --native-tls -r requirements.txt
 ```
 
 ---
@@ -207,7 +208,7 @@ uv pip install -r requirements.txt
 
 ### Immediate
 1. Install uv: `curl -LsSf https://astral.sh/uv/install.sh | sh`
-2. Install pyserial: `uv pip install -r requirements.txt`
+2. Install Python dependencies: `uv pip install --system --native-tls -r requirements.txt`
 3. Validate setup: `./scripts/validate_tooling.sh`
 4. Test workflow: `make flash && make hardware-test`
 

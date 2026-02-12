@@ -18,7 +18,98 @@ Defaults:
 import serial
 import sys
 import time
+import os
 from datetime import datetime
+
+
+def wait_for_port(port, timeout=10, check_interval=0.5):
+    """
+    Wait for serial port device to exist in filesystem
+    
+    Args:
+        port: Serial port device path
+        timeout: Maximum time to wait in seconds
+        check_interval: Time between checks in seconds
+    
+    Returns:
+        True if port exists, False if timeout
+    """
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        if os.path.exists(port):
+            return True
+        time.sleep(check_interval)
+    return False
+
+
+def is_port_ready(port, baudrate, timeout=1):
+    """
+    Check if serial port is ready to be opened
+    
+    Args:
+        port: Serial port device path
+        baudrate: Baud rate to test with
+        timeout: Timeout for open attempt
+    
+    Returns:
+        True if port can be opened, False otherwise
+    """
+    try:
+        ser = serial.Serial(
+            port=port,
+            baudrate=baudrate,
+            timeout=timeout
+        )
+        ser.close()
+        return True
+    except OSError as e:
+        # Errno 6: Device not configured (USB re-enumeration in progress)
+        if e.errno == 6:
+            return False
+        return False
+    except Exception:
+        return False
+
+
+def monitor_serial_with_retry(port, baudrate, duration, output_file=None, 
+                               port_timeout=10, port_check_interval=0.5):
+    """
+    Monitor serial port with retry logic for port availability
+    
+    Args:
+        port: Serial port device path
+        baudrate: Baud rate (e.g., 115200)
+        duration: Duration to monitor in seconds
+        output_file: Optional file to write output to
+        port_timeout: Maximum time to wait for port to be ready
+        port_check_interval: Time between port availability checks
+    
+    Returns:
+        Captured output as string, or None if port never became ready
+    """
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Waiting for port {port} to be ready...")
+    
+    # First, wait for port to exist in filesystem
+    if not wait_for_port(port, timeout=port_timeout, check_interval=port_check_interval):
+        print(f"ERROR: Port {port} did not appear within {port_timeout} seconds", file=sys.stderr)
+        return None
+    
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Port exists, checking if ready to open...")
+    
+    # Then, wait for port to be ready to open (USB enumeration complete)
+    start_time = time.time()
+    while time.time() - start_time < port_timeout:
+        if is_port_ready(port, baudrate):
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Port ready!")
+            break
+        time.sleep(port_check_interval)
+    else:
+        print(f"ERROR: Port {port} not ready within {port_timeout} seconds", file=sys.stderr)
+        return None
+    
+    # Port is ready, proceed with monitoring
+    return monitor_serial(port, baudrate, duration, output_file)
+
 
 def monitor_serial(port, baudrate, duration, output_file=None):
     """
@@ -115,7 +206,14 @@ def main():
     duration = int(sys.argv[3]) if len(sys.argv) > 3 else 5
     output_file = sys.argv[4] if len(sys.argv) > 4 else None
     
-    monitor_serial(port, baudrate, duration, output_file)
+    # Use retry logic with 10 second timeout for port to be ready
+    result = monitor_serial_with_retry(
+        port, baudrate, duration, output_file,
+        port_timeout=10, port_check_interval=0.5
+    )
+    
+    if result is None:
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()

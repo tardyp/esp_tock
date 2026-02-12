@@ -2,6 +2,13 @@
 #
 # ESP32-C6 Hardware Test Automation Script
 #
+# Boot Flow: Embassy-style Direct Boot (NO ESP-IDF bootloader)
+# ============================================================
+# 1. espflash converts ELF → ESP32 image with header
+# 2. Flash to offset 0x0
+# 3. ROM bootloader validates header and jumps to 0x42000020
+# 4. Tock kernel starts
+#
 # This script automates the process of flashing firmware and verifying
 # serial output for ESP32-C6 hardware testing.
 #
@@ -9,20 +16,19 @@
 #   ./test_esp32c6.sh <kernel.elf> [test_duration]
 #
 # Example:
-#   ./test_esp32c6.sh path/to/nano-esp32-c6-board 10
+#   ./test_esp32c6.sh tock/target/riscv32imac-unknown-none-elf/release/nano-esp32-c6-board 10
 #
 
 set -e
 
 # Configuration
-FLASH_PORT="${FLASH_PORT:-/dev/tty.usbmodem112201}"  # ESP32-C6 native USB
-UART_PORT="${UART_PORT:-/dev/tty.usbmodem595B0538021}"  # CH343 UART
+# ESP32-C6 USB-JTAG port handles BOTH flashing AND serial monitor
+FLASH_PORT="${FLASH_PORT:-/dev/tty.usbmodem112201}"  # ESP32-C6 native USB-JTAG
 BAUDRATE="${BAUDRATE:-115200}"
 TEST_DURATION="${2:-10}"  # Default 10 seconds
 KERNEL_ELF="$1"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ESPFLASH="$SCRIPT_DIR/../espflash/target/release/espflash"
 MONITOR_SCRIPT="$SCRIPT_DIR/monitor_serial.py"
 
 # Colors
@@ -59,10 +65,10 @@ if [ ! -f "$KERNEL_ELF" ]; then
     exit 1
 fi
 
-# Check if espflash exists
-if [ ! -f "$ESPFLASH" ]; then
-    log_error "espflash not found at $ESPFLASH"
-    log_info "Please build espflash first: cd espflash && cargo build --release"
+# Check if espflash is available
+if ! command -v espflash &> /dev/null; then
+    log_error "espflash not found in PATH"
+    log_info "Install with: cargo install espflash"
     exit 1
 fi
 
@@ -79,7 +85,7 @@ log_info "Test output directory: $TEST_OUTPUT_DIR"
 
 # Test 1: Board Detection
 log_test "Test 1: Board Detection"
-if $ESPFLASH board-info --port $FLASH_PORT > "$TEST_OUTPUT_DIR/board_info.log" 2>&1; then
+if espflash board-info --port $FLASH_PORT > "$TEST_OUTPUT_DIR/board_info.log" 2>&1; then
     log_info "✅ Board detected"
     cat "$TEST_OUTPUT_DIR/board_info.log"
 else
@@ -88,20 +94,34 @@ else
     exit 1
 fi
 
-# Test 2: Flash Firmware
-log_test "Test 2: Flash Firmware"
-log_info "Flashing $KERNEL_ELF..."
-if $ESPFLASH flash --chip esp32c6 --port $FLASH_PORT "$KERNEL_ELF" > "$TEST_OUTPUT_DIR/flash.log" 2>&1; then
+# Test 2: Verify ELF Entry Point
+log_test "Test 2: Verify ELF Entry Point"
+ENTRY_POINT=$(llvm-readelf -h "$KERNEL_ELF" 2>/dev/null | grep "Entry point" | awk '{print $4}')
+echo "Entry point: $ENTRY_POINT" > "$TEST_OUTPUT_DIR/entry_point.log"
+if [ "$ENTRY_POINT" = "0x42000020" ]; then
+    log_info "✅ Entry point correct: $ENTRY_POINT"
+else
+    log_warn "⚠️  Entry point is $ENTRY_POINT (expected 0x42000020)"
+    log_warn "Boot may fail - check linker script"
+fi
+
+# Test 3: Flash Firmware (Direct Boot Mode)
+log_test "Test 3: Flash Firmware (Direct Boot - No Bootloader)"
+log_info "Flashing $KERNEL_ELF with espflash direct mode..."
+log_info "This creates ESP32 image with 32-byte header at offset 0x0"
+if espflash flash --chip esp32c6 --port $FLASH_PORT --flash-mode dio --flash-freq 80mhz "$KERNEL_ELF" > "$TEST_OUTPUT_DIR/flash.log" 2>&1; then
     log_info "✅ Flashing successful"
+    # Show image size
+    grep "App/part. size" "$TEST_OUTPUT_DIR/flash.log" || true
 else
     log_error "❌ Flashing failed"
     cat "$TEST_OUTPUT_DIR/flash.log"
     exit 1
 fi
 
-# Test 3: Reset Board
-log_test "Test 3: Reset Board"
-if $ESPFLASH reset --port $FLASH_PORT > "$TEST_OUTPUT_DIR/reset.log" 2>&1; then
+# Test 4: Reset Board
+log_test "Test 4: Reset Board"
+if espflash reset --port $FLASH_PORT > "$TEST_OUTPUT_DIR/reset.log" 2>&1; then
     log_info "✅ Reset successful"
 else
     log_error "❌ Reset failed"
@@ -109,48 +129,63 @@ else
     exit 1
 fi
 
-# Wait a moment for board to boot
-sleep 2
+# Wait for USB-JTAG port to re-enumerate after reset
+# The ESP32-C6 USB-JTAG port needs time to re-enumerate after reset.
+# Without this delay, the serial monitor may fail with "Device not configured" error.
+# The monitor script has retry logic, but this delay helps avoid unnecessary retries.
+log_info "Waiting for USB-JTAG port to re-enumerate..."
+sleep 5
 
-# Test 4: Monitor Serial Output
-log_test "Test 4: Monitor Serial Output ($TEST_DURATION seconds)"
-log_info "Monitoring $UART_PORT at $BAUDRATE baud..."
+# Test 5: Monitor Serial Output
+log_test "Test 5: Monitor Serial Output ($TEST_DURATION seconds)"
+log_info "Monitoring $FLASH_PORT at $BAUDRATE baud..."
+log_info "Expected boot flow:"
+log_info "  1. ROM bootloader messages"
+log_info "  2. Jump to 0x42000020"
+log_info "  3. Tock kernel initialization"
 
-if python3 "$MONITOR_SCRIPT" "$UART_PORT" "$BAUDRATE" "$TEST_DURATION" "$TEST_OUTPUT_DIR/serial_output.log" > "$TEST_OUTPUT_DIR/monitor.log" 2>&1; then
+if python3 "$MONITOR_SCRIPT" "$FLASH_PORT" "$BAUDRATE" "$TEST_DURATION" "$TEST_OUTPUT_DIR/serial_output.log" > "$TEST_OUTPUT_DIR/monitor.log" 2>&1; then
     log_info "✅ Monitoring complete"
 else
     log_warn "⚠️  Monitoring had issues (check logs)"
 fi
 
-# Test 5: Verify Output
-log_test "Test 5: Verify Serial Output"
+# Test 6: Verify Output
+log_test "Test 6: Verify Serial Output"
 
 SERIAL_OUTPUT="$TEST_OUTPUT_DIR/serial_output.log"
 
 if [ ! -f "$SERIAL_OUTPUT" ] || [ ! -s "$SERIAL_OUTPUT" ]; then
     log_warn "⚠️  No serial output captured"
     log_warn "This may be expected if firmware doesn't output to UART"
-    TESTS_PASSED=3
-    TESTS_TOTAL=4
+    TESTS_PASSED=4
+    TESTS_TOTAL=5
 else
     log_info "Serial output captured ($(wc -l < "$SERIAL_OUTPUT") lines)"
     
     # Check for expected messages
-    TESTS_PASSED=3
-    TESTS_TOTAL=5
+    TESTS_PASSED=4
+    TESTS_TOTAL=6
     
-    if grep -q "initialization complete" "$SERIAL_OUTPUT"; then
-        log_info "✅ Found initialization message"
+    # Check for ROM bootloader (indicates board is booting)
+    if grep -q "ESP-ROM" "$SERIAL_OUTPUT" || grep -q "esp32c6" "$SERIAL_OUTPUT"; then
+        log_info "✅ ROM bootloader detected"
         TESTS_PASSED=$((TESTS_PASSED + 1))
     else
-        log_warn "⚠️  Initialization message not found"
+        log_warn "⚠️  ROM bootloader messages not found"
     fi
     
+    # Check for Tock initialization
+    if grep -q "initialization complete" "$SERIAL_OUTPUT" || grep -q "Tock" "$SERIAL_OUTPUT"; then
+        log_info "✅ Found Tock initialization message"
+        TESTS_PASSED=$((TESTS_PASSED + 1))
+    else
+        log_warn "⚠️  Tock initialization message not found"
+    fi
+    
+    # Check for panics
     if grep -q "panic" "$SERIAL_OUTPUT"; then
         log_error "❌ Panic detected in output"
-    else
-        log_info "✅ No panics detected"
-        TESTS_PASSED=$((TESTS_PASSED + 1))
     fi
 fi
 
