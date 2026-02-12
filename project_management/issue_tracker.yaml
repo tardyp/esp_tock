@@ -9,7 +9,7 @@
 # Type: bug, techdebt, enhancement, question
 # Status: open, in_progress, resolved, wont_fix
 
-next_id: 8
+next_id: 11
 
 issues:
   - id: 1
@@ -94,3 +94,36 @@ issues:
     created_at: 2026-02-12
     resolved_at: null
     notes: "tock/chips/esp32-c6/src/chip.rs:228 - TODO comment 'Implement interrupt handling with INTC' is stale. INTC is now implemented and integrated into service_pending_interrupts(). The handle_interrupt() function is a low-level trap handler that correctly just re-enables interrupts. Update comment to clarify this is the trap handler, not the dispatch handler, and add reference to service_pending_interrupts()."
+  
+  - id: 8
+    severity: low
+    type: enhancement
+    title: "GPIO test coverage limited to 5 pins out of 31"
+    status: open
+    sprint: PI002/SP004
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "GPIO test module currently tests only 5 pins (GPIO5, 6, 7, 8, 9) out of 31 available pins. While unit tests verify all 31 pins can be created and accessed, hardware tests only validate a subset. Future enhancement: Add comprehensive pin testing (all 31 pins), automated test fixture with GPIO expander, drive strength configuration tests, simultaneous interrupts on multiple pins. Low priority - unit tests verify all pins are properly defined."
+  
+  - id: 9
+    severity: low
+    type: enhancement
+    title: "Drive strength configuration not exposed in GPIO API"
+    status: open
+    sprint: PI002/SP004
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "GPIO driver uses IO_MUX default drive strength. The FUN_DRV and MCU_DRV bitfields are defined in register structure but not exposed in public API. Default drive strength suitable for most applications. Future enhancement: Add set_drive_strength() method to Configure trait, define enum for drive strength levels (0-3), document current limits for each level. Defer until specific use case arises."
+  
+  - id: 10
+    severity: low
+    type: enhancement
+    title: "Open-drain mode not exposed in GPIO API"
+    status: open
+    sprint: PI002/SP004
+    created_by: reviewer
+    created_at: 2026-02-12
+    resolved_at: null
+    notes: "GPIO driver defines PAD_DRIVER bitfield for open-drain mode but does not expose it in public API. Currently only push-pull mode is available. Push-pull mode sufficient for most applications. Open-drain needed for I2C, 1-Wire, and other protocols, but peripheral drivers can configure this directly via IO_MUX. Future enhancement: Add set_output_mode() method if needed for GPIO-based protocols, define enum for OutputMode (PushPull, OpenDrain). Defer until specific use case arises."
