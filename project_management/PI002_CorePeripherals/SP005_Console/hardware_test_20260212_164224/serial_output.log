@@ -1,0 +1,93 @@
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Serial port: '/dev/tty.usbmodem112201'
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Connecting...
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Using flash stub
+Chip type:         esp32c6 (revision v0.1)
+Crystal frequency: 40 MHz
+Flash size:        16MB
+Features:          WiFi 6, BT 5
+MAC address:       40:4c:ca:5e:ae:b8
+App/part. size:    30,768/4,128,768 bytes, 0.75%
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Segment at address '0x0' has not changed, skipping write
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Segment at address '0x8000' has not changed, skipping write
+[90m[
+[0m2026-02-12T15:42:26Z 
+[32mINFO 
+[90m]
+[0m Segment at address '0x10000' has not changed, skipping write
+[90m[
+[0m2026-02-12T15:42:27Z 
+[32mINFO 
+[90m]
+[0m Flashing has completed!
+Commands:
+    CTRL+R    Reset chip
+    CTRL+C    Exit
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x7c (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40800558
+[38;5;11m0x40800558 - STACK_MEMORY
+    at ??:??
+[39mSPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xd48
+load:0x4086e610,len:0x2d68
+load:0x40875720,len:0x1800
+entry 0x4086c410
+[0;32mI (23) boot: ESP-IDF v5.1-beta1-378-gea5e0ff298-dirt 2nd stage bootloader
+[0;32mI (23) boot: compile time Jun  7 2023 08:02:08
+[0;32mI (24) boot: chip revision: v0.1
+[0;32mI (28) boot.esp32c6: SPI Speed      : 40MHz
+[0;32mI (33) boot.esp32c6: SPI Mode       : DIO
+[0;32mI (37) boot.esp32c6: SPI Flash Size : 4MB
+[0;32mI (42) boot: Enabling RNG early entropy source...
+[0;32mI (48) boot: Partition Table:
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 003f0000
+[0;32mI (81) boot: End of partition table
+[0;32mI (85) esp_image: segment 0: paddr=00010020 vaddr=42000020 size=07758h ( 30552) map
+[0;32mI (100) esp_image: segment 1: paddr=00017780 vaddr=00000000 size=00014h (    20) 
+[0;32mI (102) esp_image: segment 2: paddr=0001779c vaddr=4200779c size=00064h (   100) map
+[0;32mI (110) boot: Loaded app from partition at offset 0x10000
+[0;32mI (116) boot: Disabling RNG early entropy source...
+=== Tock Kernel Starting ===
+Deferred calls initialized
+Disabling watchdogs...
+Watchdogs disabled
+Configuring peripheral clocks...
+Peripheral clocks configured
+[INTC] Initializing interrupt controller
+[INTC] Mapping interrupts
+[INTC] Enabling interrupts
+[INTC] Interrupt controller ready
+Setting up UART console...
+UART0 configured
+Console initialized
+Platform setup complete
+*** Hello World from Tock! ***
+Entering kernel main loop...
+Error:   
+[31m√
+[0m Broken pipe
