@@ -61,6 +61,7 @@ Orchestrate the Tock ESP32-C6 port development. Manage PI/Sprint workflow, coord
 | @implementor | TDD Rust coding | All coding tasks |
 | @integrator | Hardware testing | After implementation, validate on board |
 | @reviewer | Sprint review | End of sprint, before commit |
+| @superanalyst | High intelligence Research | When team has been struggling for several iterations |
 
 ---
 

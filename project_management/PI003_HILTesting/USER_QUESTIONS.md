@@ -238,6 +238,49 @@ Response inline
 
 ---
 
-**Status:** ⏳ AWAITING PO RESPONSE
+## SP001 Implementation Questions
 
-**Next Step:** Once PO responds, proceed to detailed PI planning (002_analyst_pi_planning.md)
+### Q9: GPIO18→GPIO19 Connection Verification
+**Question:** Can you verify the GPIO18→GPIO19 jumper wire is physically connected?
+
+**Context:** 
+- In Q2, you confirmed "the two suggested connections are done"
+- Test results show GPIO19 reads LOW when GPIO18 is HIGH
+- This indicates the jumper wire is NOT connected or has poor contact
+
+**Diagnostic Test:**
+```bash
+cd tock/boards/nano-esp32-c6
+./test_gpio_interrupts.sh
+```
+
+**Expected Output (if connected):**
+```
+[GI-001] Rising Edge
+PASS (count=1)
+```
+
+**Current Output (not connected):**
+```
+[GI-001] Rising Edge
+FAIL (count=0)
+```
+
+**Required Action:**
+1. Physically verify jumper wire: GPIO18 (J6 pin 8) → GPIO19 (J6 pin 9)
+2. Ensure good contact (may need to reseat wire)
+3. Run test script and report results
+
+**Impact:** Blocks SP001 progress until resolved
+
+**Your Response:**
+- [ ] Wire is connected, verified
+- [ ] Wire was not connected, now connected
+- [ ] Need help identifying pins
+- [ ] Other: _______________
+
+---
+
+**Status:** ✅ APPROVED - PI003 Started, SP001 In Progress
+
+**Next Step:** Resolve Q9 hardware connection issue to unblock SP001
