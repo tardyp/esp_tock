@@ -39,7 +39,6 @@ project_management/PI001_First_Boot/SP001_Setup/
 # PI###/SP### - [Agent] Report: [Topic]
 
 ## Session Summary
-**Date:** YYYY-MM-DD
 **Task:** [Brief description]
 **Status:** [Complete / In Progress / Blocked]
 

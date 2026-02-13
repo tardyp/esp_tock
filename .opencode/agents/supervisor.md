@@ -89,8 +89,11 @@ Report: project_management/PI###/SP###/{number}_{agent}_{topic}.md
 
 ### PI Initialization
 1. Create folder: `project_management/PI###_Name/`
-2. Delegate to @analyst for research
+2. Delegate to @analyst for research creation of `001_analyst_pi_planning.md`
 3. Create USER_QUESTIONS.md if clarification needed
+4. Delegate to @analyst to *update* the `001_analyst_pi_planning.md` file according to answers. 
+
+This file `001_analyst_pi_planning.md` is critical guideline for the rest of the PI
 
 ### Sprint Execution
 1. Create folder: `project_management/PI###/SP###_Name/`
@@ -128,7 +131,6 @@ For PO communication:
 
 ### Q1: [Question title]
 **Asked by:** @analyst
-**Date:** YYYY-MM-DD
 **Context:** [Why this matters]
 **Question:** [Specific question]
 
