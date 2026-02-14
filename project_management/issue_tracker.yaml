@@ -9,7 +9,7 @@
 # Type: bug, techdebt, enhancement, question
 # Status: open, in_progress, resolved, wont_fix
 
-next_id: 17
+next_id: 18
 
 issues:
   - id: 1
@@ -195,3 +195,16 @@ issues:
     created_at: 2026-02-12
     resolved_at: null
     notes: "ESP32-C6 USB-UART peripheral has an internal watchdog/timeout mechanism that resets the CPU after ~1-1.5 seconds of inactivity or busy-wait loops. Reset reason: 0x15 (USB_UART_CHIP). The UART/console driver should be responsible for keeping the USB-UART peripheral alive by either: (1) Setting up a timer to periodically service the USB-UART, (2) Sending keepalive characters, or (3) Properly disabling the USB-UART watchdog if such a register exists. Currently worked around in PI003/SP001 by using WFI (wait-for-interrupt) in delay loops instead of busy-wait. Proper fix should be in the UART driver layer, not application code. See project_management/PI003_HILTesting/SP001_GPIOInterruptHIL/008_implementor_reset_investigation.md for investigation details."
+  
+  - id: 17
+    severity: high
+    type: bug
+    title: "GPIO driver uses wrong base address (0x60004000 instead of 0x60091000)"
+    status: resolved
+    sprint: PI003/SP001
+    created_by: implementor
+    created_at: 2026-02-13
+    resolved_at: 2026-02-14
+    resolved_by: integrator
+    verified_by: reviewer
+    notes: "RESOLVED in PI003/SP001. Fixed GPIO_BASE to 0x60091000, IO_MUX_BASE to 0x60090000, INTMTX_BASE to 0x60010000. All addresses verified against ESP-IDF reg_base.h. Added io_mux_offset() lookup table for non-sequential IO_MUX registers. GPIO clock gate workaround remains (uses raw pointer at 0x6009162C) - full GpioRegisters struct rewrite deferred to tech debt. Hardware testing confirms GPIO input/output and interrupts now working correctly. See project_management/PI003_HILTesting/SP001_GPIOInterruptHIL/021_integrator_hardware_debug.md for validation."
