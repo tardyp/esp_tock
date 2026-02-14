@@ -9,7 +9,7 @@
 # Type: bug, techdebt, enhancement, question
 # Status: open, in_progress, resolved, wont_fix
 
-next_id: 18
+next_id: 21
 
 issues:
   - id: 1
@@ -208,3 +208,36 @@ issues:
     resolved_by: integrator
     verified_by: reviewer
     notes: "RESOLVED in PI003/SP001. Fixed GPIO_BASE to 0x60091000, IO_MUX_BASE to 0x60090000, INTMTX_BASE to 0x60010000. All addresses verified against ESP-IDF reg_base.h. Added io_mux_offset() lookup table for non-sequential IO_MUX registers. GPIO clock gate workaround remains (uses raw pointer at 0x6009162C) - full GpioRegisters struct rewrite deferred to tech debt. Hardware testing confirms GPIO input/output and interrupts now working correctly. See project_management/PI003_HILTesting/SP001_GPIOInterruptHIL/021_integrator_hardware_debug.md for validation."
+  
+  - id: 18
+    severity: medium
+    type: techdebt
+    title: "USB-JTAG sleep workaround uses busy-wait instead of WFI"
+    status: open
+    sprint: PI003/SP002
+    created_by: reviewer
+    created_at: 2026-02-14
+    resolved_at: null
+    notes: "ESP32-C6 USB-JTAG controller requires CPU activity to stay connected. Pure WFI causes USB disconnect. Current workaround in chip.rs::sleep() uses short busy-wait loop (1000 iterations) instead of WFI. Impact: Higher power consumption during sleep. Alternatives explored: WFI (causes disconnect), USB disable bits (ineffective). Future investigation: USB wakeup source configuration, alternative sleep modes (light sleep?), USB-JTAG interrupt handling. See PI003/SP002 reports 007-016 for investigation details."
+  
+  - id: 19
+    severity: low
+    type: techdebt
+    title: "Timer alarm tests cannot test 0ms immediate alarms"
+    status: open
+    sprint: PI003/SP002
+    created_by: reviewer
+    created_at: 2026-02-14
+    resolved_at: null
+    notes: "0ms alarms cause USB-JTAG disconnect when interrupt fires immediately. Timer alarm tests use 1ms minimum delay instead of 0ms. Impact: Cannot test immediate alarm edge case. Rationale: 0ms alarms are rare in practice, 1ms minimum is reasonable. Future investigation: Proper USB-JTAG interrupt handling to support immediate alarms. See PI003/SP002 report 016 for details."
+  
+  - id: 20
+    severity: low
+    type: techdebt
+    title: "USB-UART disable bits in registers don't prevent reset"
+    status: open
+    sprint: PI003/SP002
+    created_by: reviewer
+    created_at: 2026-02-14
+    resolved_at: null
+    notes: "Attempted to disable USB-UART chip reset via USB_DEVICE_CONF0_REG and RTC_CNTL_WDTCONFIG0_REG. Disable bits have no effect - hardware limitation. Code exists in usb_serial_jtag.rs and watchdog.rs but doesn't prevent reset. Kept for documentation purposes. Future investigation: Check if newer ESP32-C6 silicon revisions support disable, investigate alternative USB-UART configurations. See PI003/SP002 reports 007-010 for investigation details."
